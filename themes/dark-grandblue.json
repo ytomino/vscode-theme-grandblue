@@ -17,7 +17,9 @@
 		"editor.inactiveSelectionBackground": "#081058",
 		/* finding */
 		"editor.findMatchBackground": "#781030",
-		"editor.findMatchHighlightBackground": "#380020"
+		"editor.findMatchHighlightBackground": "#380020",
+		/* panel */
+		"panel.background": "#1E1E1E"
 	},
 	"tokenColors": [
 		{
