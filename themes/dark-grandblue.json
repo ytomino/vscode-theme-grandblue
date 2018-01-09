@@ -5,7 +5,11 @@
 	"include": "./include/dark_defaults.json",
 	"colors": {
 		"editor.background": "#000020",
-		"editor.foreground": "#E0E0E0"
+		"editor.foreground": "#E0E0E0",
+		"editor.lineHighlightBackground": "#081030",
+		"editorIndentGuide.background": "#102040",
+		"editorRuler.foreground": "#102040",
+		"editorWhitespace.foreground": "#285070"
 	},
 	"tokenColors": [
 		{
