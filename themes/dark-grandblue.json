@@ -162,7 +162,6 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"fontStyle": "normal",
 				"foreground": "#C3E88D"
 			}
 		},
@@ -475,9 +474,7 @@
 			"scope": [
 				"text.html.markdown meta.dummy.line-break"
 			],
-			"settings": {
-				"foreground": ""
-			}
+			"settings": {}
 		},
 		{
 			"name": "Markdown - Heading",
@@ -542,8 +539,7 @@
 				"markup.strike"
 			],
 			"settings": {
-				"fontStyle": "strike",
-				"foreground": ""
+				"fontStyle": "italic underline"
 			}
 		},
 		{
@@ -552,7 +548,6 @@
 				"markup.quote punctuation.definition.blockquote.markdown"
 			],
 			"settings": {
-				"background": "#65737E",
 				"foreground": "#65737E"
 			}
 		},
@@ -562,8 +557,7 @@
 				"markup.quote"
 			],
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": ""
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -647,7 +641,6 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"background": "#00000050",
 				"foreground": "#65737E"
 			}
 		},
