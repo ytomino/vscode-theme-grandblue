@@ -3,14 +3,11 @@
 	"name": "Dark Grandblue",
 	"type": "dark",
 	"include": "./include/dark_defaults.json",
-	"colors": {},
+	"colors": {
+		"editor.background": "#000020",
+		"editor.foreground": "#E0E0E0"
+	},
 	"tokenColors": [
-		{
-			"settings": {
-				"foreground": "#eeffffff",
-				"background": "#263238ff"
-			}
-		},
 		{
 			"name": "Comment",
 			"scope": [
