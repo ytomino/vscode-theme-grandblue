@@ -44,6 +44,16 @@
 				"foreground": "#80A0C0"
 			}
 		},
+		/* keyword */
+		{
+			"name": "Keyword",
+			"scope": [
+				"keyword"
+			],
+			"settings": {
+				"foreground": "#E080E0"
+			}
+		},
 		/* unmodified */
 		{
 			"name": "Variables",
@@ -77,7 +87,6 @@
 		{
 			"name": "Keyword, Storage",
 			"scope": [
-				"keyword",
 				"storage.type",
 				"storage.modifier"
 			],
@@ -88,7 +97,6 @@
 		{
 			"name": "Operator, Misc",
 			"scope": [
-				"keyword.control",
 				"constant.other.color",
 				"punctuation",
 				"meta.tag",
@@ -97,9 +105,7 @@
 				"punctuation.definition.tag.html",
 				"punctuation.definition.tag.begin.html",
 				"punctuation.definition.tag.end.html",
-				"punctuation.section.embedded",
-				"keyword.other.template",
-				"keyword.other.substitution"
+				"punctuation.section.embedded"
 			],
 			"settings": {
 				"foreground": "#89DDFF"
@@ -122,8 +128,7 @@
 				"entity.name.function",
 				"meta.function-call",
 				"variable.function",
-				"support.function",
-				"keyword.other.special-method"
+				"support.function"
 			],
 			"settings": {
 				"foreground": "#82AAFF"
@@ -156,9 +161,7 @@
 				"support.constant",
 				"constant.character",
 				"constant.escape",
-				"variable.parameter",
-				"keyword.other.unit",
-				"keyword.other"
+				"variable.parameter"
 			],
 			"settings": {
 				"foreground": "#F78C6C"
