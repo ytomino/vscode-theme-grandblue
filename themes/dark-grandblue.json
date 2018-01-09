@@ -9,7 +9,9 @@
 		"editor.lineHighlightBackground": "#081030",
 		"editorIndentGuide.background": "#102040",
 		"editorRuler.foreground": "#102040",
-		"editorWhitespace.foreground": "#285070"
+		"editorWhitespace.foreground": "#285070",
+		/* cursor */
+		"editorCursor.foreground": "#FFFFFF"
 	},
 	"tokenColors": [
 		{
