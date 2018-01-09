@@ -54,6 +54,26 @@
 				"foreground": "#E080E0"
 			}
 		},
+		/* attribute */
+		{
+			"name": "Language-defined attribute",
+			"scope": [
+				"keyword.other",
+				"entity.other.attribute-name.defined" /* not in the schema */
+			],
+			"settings": {
+				"foreground": "#E0B080"
+			}
+		},
+		{
+			"name": "User-defined attribute",
+			"scope": [
+				"entity.other.attribute-name"
+			],
+			"settings": {
+				"foreground": "#E0E080"
+			}
+		},
 		/* unmodified */
 		{
 			"name": "Variables",
@@ -263,15 +283,6 @@
 			}
 		},
 		{
-			"name": "Attributes",
-			"scope": [
-				"entity.other.attribute-name"
-			],
-			"settings": {
-				"foreground": "#C792EA"
-			}
-		},
-		{
 			"name": "HTML Attributes",
 			"scope": [
 				"text.html.basic entity.other.attribute-name.html",
@@ -279,15 +290,6 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#FFCB6B"
-			}
-		},
-		{
-			"name": "CSS Classes",
-			"scope": [
-				"entity.other.attribute-name.class"
-			],
-			"settings": {
 				"foreground": "#FFCB6B"
 			}
 		},
