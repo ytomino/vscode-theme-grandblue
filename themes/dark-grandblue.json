@@ -74,6 +74,16 @@
 				"foreground": "#E0E080"
 			}
 		},
+		/* meta */
+		{
+			"name": "Meta",
+			"scope": [
+				"meta"
+			],
+			"settings": {
+				"foreground": "#E08080"
+			}
+		},
 		/* unmodified */
 		{
 			"name": "Variables",
@@ -119,7 +129,6 @@
 			"scope": [
 				"constant.other.color",
 				"punctuation",
-				"meta.tag",
 				"punctuation.definition.tag",
 				"punctuation.separator.inheritance.php",
 				"punctuation.definition.tag.html",
@@ -135,7 +144,6 @@
 			"name": "Tag",
 			"scope": [
 				"entity.name.tag",
-				"meta.tag.sgml",
 				"markup.deleted.git_gutter"
 			],
 			"settings": {
@@ -146,21 +154,11 @@
 			"name": "Function, Special Method",
 			"scope": [
 				"entity.name.function",
-				"meta.function-call",
 				"variable.function",
 				"support.function"
 			],
 			"settings": {
 				"foreground": "#82AAFF"
-			}
-		},
-		{
-			"name": "Block Level Variables",
-			"scope": [
-				"meta.block variable.other"
-			],
-			"settings": {
-				"foreground": "#f07178"
 			}
 		},
 		{
@@ -195,8 +193,7 @@
 				"constant.other.key",
 				"entity.other.inherited-class",
 				"markup.heading",
-				"markup.inserted.git_gutter",
-				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+				"markup.inserted.git_gutter"
 			],
 			"settings": {
 				"foreground": "#C3E88D"
@@ -209,7 +206,6 @@
 				"support.type",
 				"support.class",
 				"support.orther.namespace.use.php",
-				"meta.use.php",
 				"support.other.namespace.php",
 				"markup.changed.git_gutter",
 				"support.type.sys-types"
@@ -275,7 +271,6 @@
 		{
 			"name": "meta.method.js",
 			"scope": [
-				"meta.class-method.js entity.name.function.js",
 				"variable.function.constructor"
 			],
 			"settings": {
@@ -650,16 +645,6 @@
 				"variable.language.fenced.markdown"
 			],
 			"settings": {
-				"foreground": "#65737E"
-			}
-		},
-		{
-			"name": "Markdown - Separator",
-			"scope": [
-				"meta.separator"
-			],
-			"settings": {
-				"fontStyle": "bold",
 				"foreground": "#65737E"
 			}
 		},
