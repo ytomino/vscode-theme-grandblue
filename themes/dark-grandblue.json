@@ -22,18 +22,29 @@
 		"panel.background": "#1E1E1E"
 	},
 	"tokenColors": [
-		/* unmodified */
+		/* comment */
 		{
 			"name": "Comment",
 			"scope": [
 				"comment",
-				"punctuation.definition.comment"
+				"punctuation.definition.comment" /* not in the schema */
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#546E7A"
+				"foreground": "#8080C0"
 			}
 		},
+		{
+			"name": "Comment for document generator",
+			"scope": [
+				"comment.block.documentation"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#80A0C0"
+			}
+		},
+		/* unmodified */
 		{
 			"name": "Variables",
 			"scope": [
