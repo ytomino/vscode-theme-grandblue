@@ -122,6 +122,16 @@
 				"foreground": "#E08080"
 			}
 		},
+		/* entity */
+		{
+			"name": "Entity",
+			"scope": [
+				"entity"
+			],
+			"settings": {
+				"foreground": "#E0E0E0" /* same as foreground */
+			}
+		},
 		/* unmodified */
 		{
 			"name": "Variables",
@@ -181,7 +191,6 @@
 		{
 			"name": "Tag",
 			"scope": [
-				"entity.name.tag",
 				"markup.deleted.git_gutter"
 			],
 			"settings": {
@@ -191,7 +200,6 @@
 		{
 			"name": "Function, Special Method",
 			"scope": [
-				"entity.name.function",
 				"variable.function",
 				"support.function"
 			],
@@ -239,7 +247,6 @@
 		{
 			"name": "Class, Support",
 			"scope": [
-				"entity.name",
 				"support.type",
 				"support.class",
 				"support.orther.namespace.use.php",
@@ -277,7 +284,6 @@
 		{
 			"name": "Sub-methods",
 			"scope": [
-				"entity.name.module.js",
 				"variable.import.parameter.js",
 				"variable.other.class.js"
 			],
@@ -293,16 +299,6 @@
 			"settings": {
 				"fontStyle": "italic",
 				"foreground": "#FF5370"
-			}
-		},
-		{
-			"name": "entity.name.method.js",
-			"scope": [
-				"entity.name.method.js"
-			],
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#82AAFF"
 			}
 		},
 		{
