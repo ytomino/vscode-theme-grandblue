@@ -11,7 +11,10 @@
 		"editorRuler.foreground": "#102040",
 		"editorWhitespace.foreground": "#285070",
 		/* cursor */
-		"editorCursor.foreground": "#FFFFFF"
+		"editorCursor.foreground": "#FFFFFF",
+		/* selection */
+		"editor.selectionBackground": "#000070",
+		"editor.inactiveSelectionBackground": "#081058"
 	},
 	"tokenColors": [
 		{
