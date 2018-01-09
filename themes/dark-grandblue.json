@@ -54,6 +54,44 @@
 				"foreground": "#E080E0"
 			}
 		},
+		/* operator */
+		{
+			"name": "Language-defined operator",
+			"scope": [
+				"keyword.operator"
+			],
+			"settings": {
+				"foreground": "#A0A0A0"
+			}
+		},
+		{
+			"name": "User-defined operator",
+			"scope": [
+				"entity.other",
+				"entity.other.infix" /* not in the schema */
+			],
+			"settings": {
+				"foreground": "#80C0E0"
+			}
+		},
+		{
+			"name": "User-defined prefix operator",
+			"scope": [
+				"entity.other.prefix"
+			],
+			"settings": {
+				"foreground": "#C080E0"
+			}
+		},
+		{
+			"name": "User-defined indexing operator",
+			"scope": [
+				"entity.other.indexing"
+			],
+			"settings": {
+				"foreground": "#80E0C0"
+			}
+		},
 		/* attribute */
 		{
 			"name": "Language-defined attribute",
@@ -191,7 +229,6 @@
 				"string",
 				"constant.other.symbol",
 				"constant.other.key",
-				"entity.other.inherited-class",
 				"markup.heading",
 				"markup.inserted.git_gutter"
 			],
