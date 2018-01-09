@@ -15,7 +15,7 @@
             {
                 "label": "Dark Grandblue",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Dark Grandblue-color-theme.json"
+                "path": "./themes/dark-grandblue.json"
             }
         ]
     }
