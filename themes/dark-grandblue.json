@@ -2,12 +2,8 @@
 	"$schema": "vscode://schemas/color-theme",
 	"name": "Dark Grandblue",
 	"type": "dark",
-	"colors": {
-		"editor.background": "#1e1e1e",
-		"editor.foreground": "#d4d4d4",
-		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
-	},
+	"include": "./include/dark_defaults.json",
+	"colors": {},
 	"tokenColors": [
 		{
 			"settings": {
