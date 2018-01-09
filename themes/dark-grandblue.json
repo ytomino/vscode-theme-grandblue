@@ -132,6 +132,15 @@
 				"foreground": "#E0E0E0" /* same as foreground */
 			}
 		},
+		{
+			"name": "Tag name",
+			"scope": [
+				"entity.name.tag"
+			],
+			"settings": {
+				"foreground": "#80E080"
+			}
+		},
 		/* literal */
 		{
 			"name": "Literal",
