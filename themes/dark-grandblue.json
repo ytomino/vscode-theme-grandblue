@@ -14,7 +14,10 @@
 		"editorCursor.foreground": "#FFFFFF",
 		/* selection */
 		"editor.selectionBackground": "#000070",
-		"editor.inactiveSelectionBackground": "#081058"
+		"editor.inactiveSelectionBackground": "#081058",
+		/* finding */
+		"editor.findMatchBackground": "#781030",
+		"editor.findMatchHighlightBackground": "#380020"
 	},
 	"tokenColors": [
 		{
