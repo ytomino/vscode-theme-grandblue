@@ -169,6 +169,116 @@
 				"foreground": "#00E000"
 			}
 		},
+		/* markuped text */
+		{
+			"name": "Text",
+			"scope": [
+				"meta.paragraph", /* not in the schema */
+				"string.other.footnote" /* not in the schema */
+			],
+			"settings":{
+				"foreground": "#E0E0E0" /* same as foreground */
+			}
+		},
+		{
+			"name": "Raw text",
+			"scope": [
+				"markup.raw"
+			],
+			"settings":{
+				"foreground": "#80E080"
+			}
+		},
+		{
+			"name": "Bold",
+			"scope": [
+				"markup.bold"
+			],
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Italic",
+			"scope": [
+				"markup.italic"
+			],
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Bold italic",
+			"scope": [
+				"markup.bold markup.italic",
+				"markup.italic markup.bold"
+			],
+			"settings": {
+				"fontStyle": "bold italic"
+			}
+		},
+		/* link */
+		{
+			"name": "Link identifier",
+			"scope": [
+				"constant.other.footnote.link" /* not in the schema */
+			],
+			"settings": {
+				"foreground": "#E08080"
+			}
+		},
+		{
+			"name": "Link title",
+			"scope": [
+				"string.other.link.title" /* not in the schema */
+			],
+			"settings": {
+				"foreground": "#8080E0"
+			}
+		},
+		{
+			"name": "Link URI",
+			"scope": [
+				"markup.underline.link"
+			],
+			"settings": {
+				"foreground": "#E0E080"
+			}
+		},
+		/* markup */
+		{
+			"name": "Paragraph-level markup symbol",
+			"scope": [
+				"punctuation.definition.heading", /* not in the schema */
+				"punctuation.section.raw" /* not in the schema */
+			],
+			"settings": {
+				"foreground": "#00C0C0"
+			}
+		},
+		{
+			"name": "Inline-level markup symbol",
+			"scope": [
+				"punctuation.definition.bold", /* not in the schema */
+				"punctuation.definition.constant", /* not in the schema */
+				"punctuation.definition.italic", /* not in the schema */
+				"punctuation.definition.link", /* not in the schema */
+				"punctuation.definition.raw" /* not in the schema */
+			],
+			"settings": {
+				"foreground": "#C000C0"
+			}
+		},
+		{
+			"name": "Definition markup symbol",
+			"scope": [
+				"meta.link.footnote.def punctuation.definition.constant", /* not in the schema */
+				"meta.link.reference.def punctuation.definition.string" /* not in the schema */
+			],
+			"settings": {
+				"foreground": "#C0C0C0"
+			}
+		},
 		/* unmodified */
 		{
 			"name": "Variables",
@@ -376,17 +486,6 @@
 			}
 		},
 		{
-			"name": "URL",
-			"scope": [
-				"*url*",
-				"*link*",
-				"*uri*"
-			],
-			"settings": {
-				"fontStyle": "underline"
-			}
-		},
-		{
 			"name": "Decorators",
 			"scope": [
 				"tag.decorator.js entity.name.tag.js",
@@ -535,49 +634,14 @@
 			}
 		},
 		{
-			"name": "Markup - Italic",
-			"scope": [
-				"markup.italic"
-			],
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#f07178"
-			}
-		},
-		{
-			"name": "Markup - Bold",
-			"scope": [
-				"markup.bold",
-				"markup.bold string"
-			],
-			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#f07178"
-			}
-		},
-		{
 			"name": "Markup - Bold-Italic",
 			"scope": [
-				"markup.bold markup.italic",
-				"markup.italic markup.bold",
 				"markup.quote markup.bold",
-				"markup.bold markup.italic string",
-				"markup.italic markup.bold string",
 				"markup.quote markup.bold string"
 			],
 			"settings": {
 				"fontStyle": "bold",
 				"foreground": "#f07178"
-			}
-		},
-		{
-			"name": "Markup - Underline",
-			"scope": [
-				"markup.underline"
-			],
-			"settings": {
-				"fontStyle": "underline",
-				"foreground": "#F78C6C"
 			}
 		},
 		{
@@ -608,24 +672,6 @@
 			}
 		},
 		{
-			"name": "Markup - Raw Block",
-			"scope": [
-				"markup.raw.block"
-			],
-			"settings": {
-				"foreground": "#C792EA"
-			}
-		},
-		{
-			"name": "Markdown - Raw Block Fenced",
-			"scope": [
-				"markup.raw.block.fenced.markdown"
-			],
-			"settings": {
-				"foreground": "#00000050"
-			}
-		},
-		{
 			"name": "Markdown - Fenced Bode Block",
 			"scope": [
 				"punctuation.definition.fenced.markdown"
@@ -637,7 +683,6 @@
 		{
 			"name": "Markdown - Fenced Bode Block Variable",
 			"scope": [
-				"markup.raw.block.fenced.markdown",
 				"variable.language.fenced.markdown",
 				"punctuation.section.class.end"
 			],
