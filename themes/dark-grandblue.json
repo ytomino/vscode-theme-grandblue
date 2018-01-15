@@ -26,8 +26,7 @@
 		{
 			"name": "Comment",
 			"scope": [
-				"comment",
-				"punctuation.definition.comment" /* not in the schema */
+				"comment"
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -42,6 +41,15 @@
 			"settings": {
 				"fontStyle": "italic",
 				"foreground": "#80A0C0"
+			}
+		},
+		{
+			"name": "Comment symbol",
+			"scope": [
+				"punctuation.definition.comment" /* not in the schema */
+			],
+			"settings": {
+				"fontStyle": "bold italic"
 			}
 		},
 		/* keyword */
@@ -312,7 +320,6 @@
 		{
 			"name": "Operator, Misc",
 			"scope": [
-				"punctuation",
 				"punctuation.definition.tag",
 				"punctuation.separator.inheritance.php",
 				"punctuation.definition.tag.html",
