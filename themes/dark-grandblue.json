@@ -104,7 +104,6 @@
 		{
 			"name": "Language-defined attribute",
 			"scope": [
-				"keyword.other",
 				"entity.other.attribute-name.defined" /* not in the schema */
 			],
 			"settings": {
@@ -120,11 +119,11 @@
 				"foreground": "#E0E080"
 			}
 		},
-		/* meta */
+		/* directive */
 		{
-			"name": "Meta",
+			"name": "Directive",
 			"scope": [
-				"meta"
+				"keyword.other"
 			],
 			"settings": {
 				"foreground": "#E08080"
@@ -181,7 +180,6 @@
 		{
 			"name": "Text",
 			"scope": [
-				"meta.paragraph", /* not in the schema */
 				"string.other.footnote" /* not in the schema */
 			],
 			"settings":{
