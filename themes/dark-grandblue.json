@@ -56,7 +56,8 @@
 		{
 			"name": "Keyword",
 			"scope": [
-				"keyword"
+				"keyword",
+				"keyword.operator.sizeof" /* C/C++ */
 			],
 			"settings": {
 				"foreground": "#E080E0"
@@ -66,7 +67,19 @@
 		{
 			"name": "Language-defined operator",
 			"scope": [
-				"keyword.operator"
+				"keyword.operator",
+				"punctuation.separator.delimiter", /* C/C++ */
+				"punctuation.terminator.statement", /* C/C++ */
+				"punctuation.section.parens.begin.bracket.round", /* C/C++ */
+				"punctuation.section.parens.end.bracket.round", /* C/C++ */
+				"punctuation.section.parameters.begin.bracket.round", /* C/C++ */
+				"punctuation.section.parameters.end.bracket.round", /* C/C++ */
+				"punctuation.section.arguments.begin.bracket.round", /* C/C++ */
+				"punctuation.section.arguments.end.bracket.round", /* C/C++ */
+				"punctuation.definition.begin.bracket.square", /* C/C++ */
+				"punctuation.definition.end.bracket.square", /* C/C++ */
+				"punctuation.section.block.begin.bracket.curly", /* C/C++ */
+				"punctuation.section.block.end.bracket.curly" /* C/C++ */
 			],
 			"settings": {
 				"foreground": "#A0A0A0"
@@ -123,7 +136,8 @@
 		{
 			"name": "Directive",
 			"scope": [
-				"keyword.other"
+				"keyword.other",
+				"keyword.control.directive" /* not in the schema */
 			],
 			"settings": {
 				"foreground": "#E08080"
