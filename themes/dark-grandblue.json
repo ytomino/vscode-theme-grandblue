@@ -349,6 +349,15 @@
 			}
 		},
 		{
+			"name": "Block Level Variables",
+			"scope": [
+				"meta.block variable.other"
+			],
+			"settings": {
+				"foreground": "#f07178"
+			}
+		},
+		{
 			"name": "Other Variable, String Link",
 			"scope": [
 				"support.other.variable"
@@ -371,7 +380,8 @@
 			"name": "String, Symbols, Inherited Class, Markup Heading",
 			"scope": [
 				"markup.heading",
-				"markup.inserted.git_gutter"
+				"markup.inserted.git_gutter",
+				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
 				"foreground": "#C3E88D"
@@ -437,6 +447,7 @@
 		{
 			"name": "meta.method.js",
 			"scope": [
+				"meta.class-method.js entity.name.function.js",
 				"variable.function.constructor"
 			],
 			"settings": {
