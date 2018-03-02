@@ -5,7 +5,7 @@
 	"include": "./include/dark_defaults.json",
 	"colors": {
 		"editor.background": "#000020",
-		"editor.foreground": "#E0E0E0",
+		"editor.foreground": "#EFEFEF",
 		"editor.lineHighlightBackground": "#081030",
 		"editorIndentGuide.background": "#102040",
 		"editorRuler.foreground": "#102040",
@@ -137,7 +137,7 @@
 				"entity"
 			],
 			"settings": {
-				"foreground": "#E0E0E0" /* same as foreground */
+				"foreground": "#EFEFEF" /* same as foreground */
 			}
 		},
 		{
@@ -156,7 +156,7 @@
 				"constant"
 			],
 			"settings": {
-				"foreground": "#B0E000"
+				"foreground": "#BFEF10"
 			}
 		},
 		{
@@ -165,7 +165,7 @@
 				"constant.character.escape"
 			],
 			"settings": {
-				"foreground": "#E08000"
+				"foreground": "#EF8010"
 			}
 		},
 		{
@@ -174,7 +174,7 @@
 				"string"
 			],
 			"settings": {
-				"foreground": "#00E000"
+				"foreground": "#00EF10"
 			}
 		},
 		/* markuped text */
@@ -185,7 +185,7 @@
 				"string.other.footnote" /* not in the schema */
 			],
 			"settings":{
-				"foreground": "#E0E0E0" /* same as foreground */
+				"foreground": "#EFEFEF" /* same as foreground */
 			}
 		},
 		{
