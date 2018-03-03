@@ -19,7 +19,13 @@
 		"editor.findMatchBackground": "#781030",
 		"editor.findMatchHighlightBackground": "#380020",
 		/* panel */
-		"panel.background": "#1E1E1E"
+		"panel.background": "#1E1E1E",
+		/* terminal */
+		"terminal.ansiBrightWhite": "#EFEFEF", /* same as editor.foreground */
+		"terminal.ansiWhite": "#BFBFBF",
+		"terminal.foreground": "#BFBFBF", /* same as ansiWhite */
+		/* terminal cursor */
+		"terminalCursor.foreground": "#FFFFFF"
 	},
 	"tokenColors": [
 		/* comment */
