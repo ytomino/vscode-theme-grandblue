@@ -200,7 +200,8 @@
 		{
 			"name": "Text",
 			"scope": [
-				"string.other.footnote" /* not in the schema */
+				"string.other.footnote", /* not in the schema */
+				"invalid.deprecated.line-too-long.git-commit" /* git-commit */
 			],
 			"settings":{
 				"foreground": "#EFEFEF" /* same as foreground */
