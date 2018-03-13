@@ -10,6 +10,9 @@
 		"editorIndentGuide.background": "#102040",
 		"editorRuler.foreground": "#102040",
 		"editorWhitespace.foreground": "#1C3858",
+		/* line number */
+		"editorLineNumber.foreground": "#285070",
+		"editorActiveLineNumber.foreground": "#387090",
 		/* cursor */
 		"editorCursor.foreground": "#FFFFFF",
 		/* selection */
