@@ -8,11 +8,13 @@
 		"editor.foreground": "#EFEFEF",
 		"editor.lineHighlightBackground": "#081030",
 		"editorIndentGuide.background": "#102040",
-		"editorRuler.foreground": "#102040",
+		"editorRuler.foreground": "#142849CC", /* 5/4 of editorIndentGuide.background with 4/5 transparency */
 		"editorWhitespace.foreground": "#1C3858",
 		/* line number */
 		"editorLineNumber.foreground": "#285070",
 		"editorActiveLineNumber.foreground": "#387090",
+		/* scrollbar(overview ruler) */
+		"editorOverviewRuler.border": "#202020CC", /* 4/5 transparency */
 		/* cursor */
 		"editorCursor.foreground": "#FFFFFF",
 		/* selection */
