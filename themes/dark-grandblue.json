@@ -31,7 +31,9 @@
 		"editor.selectionHighlightBackground": "#00A0C333", /* 5 of #002040 with 1/5 transparency */
 		/* finding */
 		"editor.findMatchBackground": "#C0002066", /* 5/2 of #600020 with 2/5 transparency */
+		"editor.findMatchBorder": "#F00020CC", /* 5/4 of #C00020 with 4/5 transparency */
 		"editor.findMatchHighlightBackground": "#F0002033", /* 5 of #300020 with 1/5 transparency */
+		"editor.findMatchHighlightBorder": "#F00020CC", /* 5/4 of #C00020 with 4/5transparency */
 		/* panel */
 		"panel.background": "#1E1E1E",
 		/* terminal */
