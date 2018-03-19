@@ -4,6 +4,14 @@
 	"type": "dark",
 	"include": "./include/dark_defaults.json",
 	"colors": {
+		/* the drawing order of the background colors:
+		 *   editor.background
+		 *   editor.lineHighlightBackground
+		 *   editor.selectionBackground / editor.inactiveSelectionBackground
+		 *   editor.findRangeHighlightBackground
+		 *   editor.findMatchBackground / editor.findMatchHighlightBackground
+		 *   editor.selectionHighlightBackground
+		 *   editorIndentGuide.background */
 		"editor.background": "#000020",
 		"editor.foreground": "#EFEFEF",
 		"editor.lineHighlightBackground": "#081030",
@@ -18,11 +26,12 @@
 		/* cursor */
 		"editorCursor.foreground": "#FFFFFF",
 		/* selection */
-		"editor.selectionBackground": "#000070",
-		"editor.inactiveSelectionBackground": "#081058",
+		"editor.selectionBackground": "#003870",
+		"editor.inactiveSelectionBackground": "#004860",
+		"editor.selectionHighlightBackground": "#00A0C333", /* 5 of #002040 with 1/5 transparency */
 		/* finding */
-		"editor.findMatchBackground": "#781030",
-		"editor.findMatchHighlightBackground": "#380020",
+		"editor.findMatchBackground": "#C0002066", /* 5/2 of #600020 with 2/5 transparency */
+		"editor.findMatchHighlightBackground": "#F0002033", /* 5 of #300020 with 1/5 transparency */
 		/* panel */
 		"panel.background": "#1E1E1E",
 		/* terminal */
