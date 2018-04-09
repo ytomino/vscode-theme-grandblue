@@ -20,7 +20,7 @@
 		"editorWhitespace.foreground": "#1C3858",
 		/* line number */
 		"editorLineNumber.foreground": "#285070",
-		"editorActiveLineNumber.foreground": "#387090",
+		"editorLineNumber.activeForeground": "#387090",
 		/* scrollbar(overview ruler) */
 		"editorOverviewRuler.border": "#202020CC", /* 4/5 transparency */
 		/* cursor */
