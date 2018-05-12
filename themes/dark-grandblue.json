@@ -17,7 +17,7 @@
 		"editor.lineHighlightBackground": "#081030",
 		"editorIndentGuide.background": "#102040",
 		"editorRuler.foreground": "#142849CC", /* 5/4 of editorIndentGuide.background with 4/5 transparency */
-		"editorWhitespace.foreground": "#1C3858",
+		"editorWhitespace.foreground": "#204060",
 		/* line number */
 		"editorLineNumber.foreground": "#285070",
 		"editorLineNumber.activeForeground": "#387090",
