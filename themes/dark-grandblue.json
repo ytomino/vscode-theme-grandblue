@@ -36,6 +36,10 @@
 		"editor.findMatchHighlightBorder": "#F00020CC", /* 5/4 of #C00020 with 4/5transparency */
 		/* panel */
 		"panel.background": "#1E1E1E",
+		/* explorer */
+		"listFilterWidget.background": "#C01E1E66", /* similar as editor.findMatchBackground */
+		"listFilterWidget.outline": "#F01E1ECC", /* similar as editor.findMatchBorder */
+		"listFilterWidget.noMatchesOutline": "#F01EF0CC",
 		/* terminal */
 		"terminal.ansiBrightWhite": "#EFEFEF", /* same as editor.foreground */
 		"terminal.ansiWhite": "#BFBFBF",
