@@ -22,7 +22,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#8080C0"
+				"foreground": "#8080BF"
 			}
 		},
 		{
@@ -32,7 +32,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#80A0C0"
+				"foreground": "#809FBF"
 			}
 		},
 		{
@@ -297,6 +297,61 @@
 				"foreground": "#C0C0C0"
 			}
 		},
+		/* diff */
+		{
+			"name": "Inserted",
+			"scope": [
+				"markup.inserted"
+			],
+			"settings": {
+				"foreground": "#80EF80"
+			}
+		},
+		{
+			"name": "Inserted in comment",
+			"scope": [
+				"comment markup.inserted"
+			],
+			"settings": {
+				"foreground": "#80B79F"
+			}
+		},
+		{
+			"name": "Deleted",
+			"scope": [
+				"markup.deleted"
+			],
+			"settings": {
+				"foreground": "#EF8080"
+			}
+		},
+		{
+			"name": "Deleted in comment",
+			"scope": [
+				"comment markup.deleted"
+			],
+			"settings": {
+				"foreground": "#B7809F"
+			}
+		},
+		{
+			"name": "Changed",
+			"scope": [
+				"markup.changed"
+			],
+			"settings": {
+				"foreground": "#EFEF80"
+			}
+		},
+		{
+			"name": "Changed in comment",
+			"scope": [
+				"comment markup.changed"
+			],
+			"settings": {
+				"foreground": "#B7B79F"
+			}
+		},
 		/* unmodified */
 		{
 			"name": "Invalid",
@@ -330,15 +385,6 @@
 			],
 			"settings": {
 				"foreground": "#89DDFF"
-			}
-		},
-		{
-			"name": "Tag",
-			"scope": [
-				"markup.deleted.git_gutter"
-			],
-			"settings": {
-				"foreground": "#f07178"
 			}
 		},
 		{
@@ -383,7 +429,6 @@
 			"name": "String, Symbols, Inherited Class, Markup Heading",
 			"scope": [
 				"markup.heading",
-				"markup.inserted.git_gutter",
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
@@ -397,7 +442,6 @@
 				"support.class",
 				"support.orther.namespace.use.php",
 				"support.other.namespace.php",
-				"markup.changed.git_gutter",
 				"support.type.sys-types"
 			],
 			"settings": {
@@ -475,33 +519,6 @@
 			],
 			"settings": {
 				"foreground": "#82AAFF"
-			}
-		},
-		{
-			"name": "Inserted",
-			"scope": [
-				"markup.inserted"
-			],
-			"settings": {
-				"foreground": "#C3E88D"
-			}
-		},
-		{
-			"name": "Deleted",
-			"scope": [
-				"markup.deleted"
-			],
-			"settings": {
-				"foreground": "#FF5370"
-			}
-		},
-		{
-			"name": "Changed",
-			"scope": [
-				"markup.changed"
-			],
-			"settings": {
-				"foreground": "#C792EA"
 			}
 		},
 		{
