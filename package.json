@@ -16,6 +16,11 @@
                 "label": "Dark Grandblue",
                 "uiTheme": "vs-dark",
                 "path": "./themes/dark-grandblue.json"
+            },
+            {
+                "label": "Dark Grandblack",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark-grandblack.json"
             }
         ]
     }

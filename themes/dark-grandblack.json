@@ -1,0 +1,43 @@
+{
+	"$schema": "vscode://schemas/color-theme",
+	"name": "Dark Grandblack",
+	"type": "dark",
+	"include": "./include/common.json",
+	"colors": {
+		/* the drawing order of the background colors:
+		 *   editor.background
+		 *   editor.lineHighlightBackground
+		 *   editor.selectionBackground / editor.inactiveSelectionBackground
+		 *   editor.findRangeHighlightBackground
+		 *   editor.findMatchBackground / editor.findMatchHighlightBackground
+		 *   editor.selectionHighlightBackground
+		 *   editorIndentGuide.background */
+		"editor.background": "#000000",
+		"editor.lineHighlightBackground": "#081010",
+		"editorIndentGuide.background": "#102020",
+		"editorRuler.foreground": "#142828CC", /* 5/4 of editorIndentGuide.background with 4/5 transparency */
+		"editorWhitespace.foreground": "#204040",
+		/* line number */
+		"editorLineNumber.foreground": "#285050",
+		"editorLineNumber.activeForeground": "#387070",
+		/* scrollbar(overview ruler) */
+		"editorOverviewRuler.border": "#202020CC", /* 4/5 transparency */
+		/* selection */
+		"editor.selectionBackground": "#003870",
+		"editor.inactiveSelectionBackground": "#004860",
+		"editor.selectionHighlightBackground": "#00A0A033", /* 5 of #002020 with 1/5 transparency */
+		/* finding */
+		"editor.findMatchBackground": "#C0000066", /* 5/2 of #600000 with 2/5 transparency */
+		"editor.findMatchBorder": "#F00000CC", /* 5/4 of #C00000 with 4/5 transparency */
+		"editor.findMatchHighlightBackground": "#F0000033", /* 5 of #300000 with 1/5 transparency */
+		"editor.findMatchHighlightBorder": "#F00000CC", /* 5/4 of #C00000 with 4/5transparency */
+		/* sidebar */
+		"sideBar.background": "#101010",
+		/* panel */
+		"panel.background": "#101010",
+		/* explorer */
+		"listFilterWidget.background": "#C0101066", /* similar as editor.findMatchBackground */
+		"listFilterWidget.outline": "#F01010CC", /* similar as editor.findMatchBorder */
+		"listFilterWidget.noMatchesOutline": "#F010F0CC"
+	}
+}
