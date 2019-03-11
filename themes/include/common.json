@@ -139,7 +139,8 @@
 		{
 			"name": "Entity",
 			"scope": [
-				"entity"
+				"entity",
+				"variable"
 			],
 			"settings": {
 				"foreground": "#EFEFEF" /* same as foreground */
@@ -186,8 +187,12 @@
 		{
 			"name": "Text",
 			"scope": [
+				"invalid.deprecated.line-too-long.git-commit", /* git-commit */
+				"markup.table",
+				"punctuation.definition.list_item.markdown", /* markdown */
+				"punctuation.section.class.end", /* not in the schema */
 				"string.other.footnote", /* not in the schema */
-				"invalid.deprecated.line-too-long.git-commit" /* git-commit */
+				"text.html.markdown", /* markdown */
 			],
 			"settings":{
 				"foreground": "#EFEFEF" /* same as foreground */
@@ -293,15 +298,6 @@
 			}
 		},
 		/* unmodified */
-		{
-			"name": "Variables",
-			"scope": [
-				"variable"
-			],
-			"settings": {
-				"foreground": "#EEFFFF"
-			}
-		},
 		{
 			"name": "Invalid",
 			"scope": [
@@ -611,16 +607,6 @@
 			}
 		},
 		{
-			"name": "Markdown - Plain",
-			"scope": [
-				"text.html.markdown",
-				"punctuation.definition.list_item.markdown"
-			],
-			"settings": {
-				"foreground": "#EEFFFF"
-			}
-		},
-		{
 			"name": "Markdown - Markup Raw Inline",
 			"scope": [
 				"text.html.markdown markup.inline.raw.markdown"
@@ -704,31 +690,12 @@
 			}
 		},
 		{
-			"name": "Markdown - Fenced Bode Block Variable",
-			"scope": [
-				"variable.language.fenced.markdown",
-				"punctuation.section.class.end"
-			],
-			"settings": {
-				"foreground": "#EEFFFF"
-			}
-		},
-		{
 			"name": "Markdown - Fenced Language",
 			"scope": [
 				"variable.language.fenced.markdown"
 			],
 			"settings": {
 				"foreground": "#65737E"
-			}
-		},
-		{
-			"name": "Markup - Table",
-			"scope": [
-				"markup.table"
-			],
-			"settings": {
-				"foreground": "#EEFFFF"
 			}
 		},
 		{
