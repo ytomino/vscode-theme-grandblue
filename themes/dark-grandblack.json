@@ -23,8 +23,8 @@
 		/* scrollbar(overview ruler) */
 		"editorOverviewRuler.border": "#202020CC", /* 4/5 transparency */
 		/* selection */
-		"editor.selectionBackground": "#003870",
-		"editor.inactiveSelectionBackground": "#004860",
+		"editor.selectionBackground": "#305070",
+		"editor.inactiveSelectionBackground": "#505050",
 		"editor.selectionHighlightBackground": "#00A0A033", /* 5 of #002020 with 1/5 transparency */
 		/* finding */
 		"editor.findMatchBackground": "#C0000066", /* 5/2 of #600000 with 2/5 transparency */
