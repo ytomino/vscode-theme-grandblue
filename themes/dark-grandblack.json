@@ -26,6 +26,7 @@
 		"editor.selectionBackground": "#305070",
 		"editor.inactiveSelectionBackground": "#505050",
 		"editor.selectionHighlightBackground": "#00A0A033", /* 5 of #002020 with 1/5 transparency */
+		"editor.selectionHighlightBorder": "#00787866", /* 5/2 of #003050 with 2/5 transparency */
 		/* finding */
 		"editor.findMatchBackground": "#C0000066", /* 5/2 of #600000 with 2/5 transparency */
 		"editor.findMatchBorder": "#F00000CC", /* 5/4 of #C00000 with 4/5 transparency */
