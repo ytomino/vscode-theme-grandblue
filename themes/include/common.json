@@ -118,6 +118,7 @@
 		{
 			"name": "User-defined attribute",
 			"scope": [
+				"entity.name.directive",
 				"entity.other.attribute-name"
 			],
 			"settings": {
@@ -129,7 +130,8 @@
 			"name": "Directive",
 			"scope": [
 				"keyword.other",
-				"keyword.control.directive" /* not in the schema */
+				"keyword.control.directive", /* not in the schema */
+				"meta.other.directive"
 			],
 			"settings": {
 				"foreground": "#E08080"
