@@ -2,7 +2,7 @@
 	"$schema": "vscode://schemas/color-theme",
 	"name": "Dark Grandblue",
 	"type": "dark",
-	"include": "./include/common.json",
+	"include": "./include/dark_common.json",
 	"colors": {
 		/* the drawing order of the background colors:
 		 *   editor.background
