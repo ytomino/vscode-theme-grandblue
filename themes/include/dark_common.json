@@ -55,7 +55,19 @@
 			"name": "Keyword",
 			"scope": [
 				"keyword",
-				"keyword.operator.sizeof" /* C/C++ */
+				"keyword.operator.alignas",
+				"keyword.operator.alignof",
+				"keyword.operator.cast",
+				"keyword.operator.delete",
+				"keyword.operator.expression",
+				"keyword.operator.functionlike",
+				"keyword.operator.instanceof",
+				"keyword.operator.logical.python",
+				"keyword.operator.new",
+				"keyword.operator.noexcept",
+				"keyword.operator.sizeof",
+				"keyword.operator.typeid",
+				"keyword.operator.wordlike",
 			],
 			"settings": {
 				"foreground": "#E080E0"
