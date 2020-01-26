@@ -166,6 +166,26 @@
 				"foreground": "#208040"
 			}
 		},
+		/* attribute */
+		{
+			"name": "Language-defined attribute",
+			"scope": [
+				"entity.other.attribute-name.defined"
+			],
+			"settings": {
+				"foreground": "#805020"
+			}
+		},
+		{
+			"name": "User-defined attribute",
+			"scope": [
+				"entity.name.directive",
+				"entity.other.attribute-name"
+			],
+			"settings": {
+				"foreground": "#808020"
+			}
+		},
 		/* unmodified */
 		{
 			"scope": [
@@ -227,28 +247,6 @@
 		},
 		{
 			"scope": "entity.name.selector",
-			"settings": {
-				"foreground": "#800000"
-			}
-		},
-		{
-			"scope": "entity.other.attribute-name",
-			"settings": {
-				"foreground": "#ff0000"
-			}
-		},
-		{
-			"scope": [
-				"entity.other.attribute-name.class.css",
-				"entity.other.attribute-name.class.mixin.css",
-				"entity.other.attribute-name.id.css",
-				"entity.other.attribute-name.parent-selector.css",
-				"entity.other.attribute-name.pseudo-class.css",
-				"entity.other.attribute-name.pseudo-element.css",
-				"source.css.less entity.other.attribute-name.id",
-				"entity.other.attribute-name.attribute.scss",
-				"entity.other.attribute-name.scss"
-			],
 			"settings": {
 				"foreground": "#800000"
 			}
