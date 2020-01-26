@@ -3,8 +3,14 @@
 	"include": "./light_defaults.json",
 	"colors": {
 		"activityBar.background": "#333333",
+		"breadcrumb.activeSelectionForeground": "#4e4e4e",
+		"breadcrumb.focusForeground": "#4e4e4e",
+		"breadcrumb.foreground": "#616161cc",
 		"editor.foreground": "#000000",
 		"editorCursor.foreground": "#000000",
+		"editorHoverWidget.foreground": "#616161",
+		"editorWidget.foreground": "#616161",
+		"foreground": "#AAAAAA", /* light/dark */
 		"gitDecoration.addedResourceForeground": "#81B88B",
 		"gitDecoration.deletedResourceForeground": "#C74E39",
 		"gitDecoration.ignoredResourceForeground": "#8C8C8C",
@@ -21,6 +27,8 @@
 		"list.hoverBackground": "#7F7F7F80", /* light/dark */
 		"list.inactiveSelectionBackground": "#37373D", /* dark */
 		"list.warningForeground": "#CCA700", /* dark */
+		"menu.foreground": "#616161",
+		"notifications.foreground": "#616161",
 		"panel.dropBackground": "#FFFFFF1F",
 		"panelTitle.activeBorder": "#BFBFBF",
 		"panelTitle.activeForeground": "#BFBFBF",
