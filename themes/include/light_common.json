@@ -360,6 +360,61 @@
 				"foreground": "#404040"
 			}
 		},
+		/* diff */
+		{
+			"name": "Inserted",
+			"scope": [
+				"markup.inserted"
+			],
+			"settings": {
+				"foreground": "#10A010"
+			}
+		},
+		{
+			"name": "Inserted in comment",
+			"scope": [
+				"comment markup.inserted"
+			],
+			"settings": {
+				"foreground": "#548D61"
+			}
+		},
+		{
+			"name": "Deleted",
+			"scope": [
+				"markup.deleted"
+			],
+			"settings": {
+				"foreground": "#A01010"
+			}
+		},
+		{
+			"name": "Deleted in comment",
+			"scope": [
+				"comment markup.deleted"
+			],
+			"settings": {
+				"foreground": "#9B4561"
+			}
+		},
+		{
+			"name": "Changed",
+			"scope": [
+				"markup.changed"
+			],
+			"settings": {
+				"foreground": "#A0A010"
+			}
+		},
+		{
+			"name": "Changed in comment",
+			"scope": [
+				"comment markup.changed"
+			],
+			"settings": {
+				"foreground": "#9B8D61"
+			}
+		},
 		/* unmodified */
 		{
 			"scope": [
@@ -420,24 +475,6 @@
 			"settings": {
 				"fontStyle": "bold",
 				"foreground": "#800000"
-			}
-		},
-		{
-			"scope": "markup.inserted",
-			"settings": {
-				"foreground": "#09885a"
-			}
-		},
-		{
-			"scope": "markup.deleted",
-			"settings": {
-				"foreground": "#a31515"
-			}
-		},
-		{
-			"scope": "markup.changed",
-			"settings": {
-				"foreground": "#0451a5"
 			}
 		},
 		{
