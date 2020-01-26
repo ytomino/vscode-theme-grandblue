@@ -6,6 +6,12 @@
 		"editor.foreground": "#EFEFEF",
 		/* cursor */
 		"editorCursor.foreground": "#FFFFFF",
+		/* panel */
+		"panelTitle.activeBorder": "#BFBFBF",
+		"panelTitle.activeForeground": "#BFBFBF",
+		"panelTitle.inactiveForeground": "#BFBFBF99",
+		/* sidebar */
+		"sideBarTitle.foreground": "#BFBFBF",
 		/* terminal */
 		"terminal.ansiBrightWhite": "#EFEFEF", /* same as editor.foreground */
 		"terminal.ansiWhite": "#BFBFBF",
