@@ -298,6 +298,34 @@
 				"fontStyle": "bold italic"
 			}
 		},
+		/* link */
+		{
+			"name": "Link identifier",
+			"scope": [
+				"constant.other.footnote.link"
+			],
+			"settings": {
+				"foreground": "#802020"
+			}
+		},
+		{
+			"name": "Link title",
+			"scope": [
+				"string.other.link.title"
+			],
+			"settings": {
+				"foreground": "#2020A0"
+			}
+		},
+		{
+			"name": "Link URI",
+			"scope": [
+				"markup.underline.link"
+			],
+			"settings": {
+				"foreground": "#808020"
+			}
+		},
 		/* unmodified */
 		{
 			"scope": [
