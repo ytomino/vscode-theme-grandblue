@@ -85,6 +85,29 @@
 				"fontStyle": "bold italic"
 			}
 		},
+		/* keyword */
+		{
+			"name": "Keyword",
+			"scope": [
+				"keyword",
+				"keyword.operator.alignas",
+				"keyword.operator.alignof",
+				"keyword.operator.cast",
+				"keyword.operator.delete",
+				"keyword.operator.expression",
+				"keyword.operator.functionlike",
+				"keyword.operator.instanceof",
+				"keyword.operator.logical.python",
+				"keyword.operator.new",
+				"keyword.operator.noexcept",
+				"keyword.operator.sizeof",
+				"keyword.operator.typeid",
+				"keyword.operator.wordlike",
+			],
+			"settings": {
+				"foreground": "#384FF4"
+			}
+		},
 		/* unmodified */
 		{
 			"scope": [
@@ -286,7 +309,6 @@
 		{
 			"scope": [
 				"storage.modifier",
-				"keyword.operator.noexcept"
 			],
 			"settings": {
 				"foreground": "#0000ff"
@@ -386,38 +408,9 @@
 			}
 		},
 		{
-			"scope": "keyword",
-			"settings": {
-				"foreground": "#0000ff"
-			}
-		},
-		{
-			"scope": "keyword.control",
-			"settings": {
-				"foreground": "#0000ff"
-			}
-		},
-		{
 			"scope": "keyword.operator",
 			"settings": {
 				"foreground": "#000000"
-			}
-		},
-		{
-			"scope": [
-				"keyword.operator.new",
-				"keyword.operator.expression",
-				"keyword.operator.cast",
-				"keyword.operator.sizeof",
-				"keyword.operator.alignof",
-				"keyword.operator.typeid",
-				"keyword.operator.alignas",
-				"keyword.operator.instanceof",
-				"keyword.operator.logical.python",
-				"keyword.operator.wordlike"
-			],
-			"settings": {
-				"foreground": "#0000ff"
 			}
 		},
 		{
@@ -536,9 +529,6 @@
 		{
 			"name": "Control flow / Special keywords",
 			"scope": [
-				"keyword.control",
-				"source.cpp keyword.operator.new",
-				"source.cpp keyword.operator.delete",
 				"keyword.other.using",
 				"keyword.other.operator",
 				"entity.name.operator"
