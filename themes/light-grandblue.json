@@ -1,0 +1,32 @@
+{
+	"$schema": "vscode://schemas/color-theme",
+	"name": "Light Grandblue",
+	"type": "light",
+	"include": "./include/light_common.json",
+	"colors": {
+		"editor.background": "#EFF3F7",
+		"editor.findMatchBackground": "#A8AC9466",
+		"editor.findMatchBorder": "#EF0307CC",
+		"editor.findMatchHighlightBackground": "#A8AC9433",
+		"editor.findMatchHighlightBorder": "#EF030766",
+		"editor.inactiveSelectionBackground": "#D6D6D6",
+		"editor.lineHighlightBackground": "#FFFFFF",
+		"editor.selectionBackground": "#ADD6FF",
+		"editor.selectionHighlightBackground": "#ADD6FF33",
+		"editor.selectionHighlightBorder": "#77E3F766",
+		"editorGroupHeader.tabsBackground": "#DFE3E7",
+		"editorIndentGuide.background": "#AFD3E7",
+		"editorLineNumber.activeForeground": "#6F9797",
+		"editorLineNumber.foreground": "#8FB7B7",
+		"editorOverviewRuler.border": "#DFDFDFCC",
+		"editorRuler.foreground": "#8CA8B8CC",
+		"editorWhitespace.foreground": "#AFC3C7",
+		"listFilterWidget.background": "#C01E1E66", /* refer dark */
+		"listFilterWidget.noMatchesOutline": "#F01EF0CC",
+		"listFilterWidget.outline": "#F01E1ECC", /* refer dark */
+		"panel.background": "#1E1E1E",
+		"sideBar.background": "#1E1E1E",
+		"tab.border": "#C5C5C5",
+		"tab.inactiveBackground": "#DFE3E7",
+	}
+}
