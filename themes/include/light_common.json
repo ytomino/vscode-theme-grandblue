@@ -116,6 +116,56 @@
 				"foreground": "#384FF4"
 			}
 		},
+		/* operator */
+		{
+			"name": "Language-defined operator",
+			"scope": [
+				"keyword.operator",
+				"punctuation.separator.delimiter",
+				"punctuation.terminator.statement",
+				"punctuation.section.parens.begin.bracket.round",
+				"punctuation.section.parens.end.bracket.round",
+				"punctuation.section.parameters.begin.bracket.round",
+				"punctuation.section.parameters.end.bracket.round",
+				"punctuation.section.arguments.begin.bracket.round",
+				"punctuation.section.arguments.end.bracket.round",
+				"punctuation.definition.begin.bracket.square",
+				"punctuation.definition.end.bracket.square",
+				"punctuation.section.block.begin.bracket.curly",
+				"punctuation.section.block.end.bracket.curly"
+			],
+			"settings": {
+				"foreground": "#505050"
+			}
+		},
+		{
+			"name": "User-defined operator",
+			"scope": [
+				"entity.other",
+				"entity.other.infix"
+			],
+			"settings": {
+				"foreground": "#204080"
+			}
+		},
+		{
+			"name": "User-defined prefix operator",
+			"scope": [
+				"entity.other.prefix"
+			],
+			"settings": {
+				"foreground": "#402080"
+			}
+		},
+		{
+			"name": "User-defined indexing operator",
+			"scope": [
+				"entity.other.indexing"
+			],
+			"settings": {
+				"foreground": "#208040"
+			}
+		},
 		/* unmodified */
 		{
 			"scope": [
@@ -413,12 +463,6 @@
 			],
 			"settings": {
 				"foreground": "#0451a5"
-			}
-		},
-		{
-			"scope": "keyword.operator",
-			"settings": {
-				"foreground": "#000000"
 			}
 		},
 		{
