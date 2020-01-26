@@ -55,6 +55,36 @@
 		"widget.shadow": "#000000",
 	},
 	"tokenColors": [
+		/* comment */
+		{
+			"name": "Comment",
+			"scope": [
+				"comment"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#967AB2"
+			}
+		},
+		{
+			"name": "Comment for document generator",
+			"scope": [
+				"comment.block.documentation"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#965AB2"
+			}
+		},
+		{
+			"name": "Comment symbol",
+			"scope": [
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"fontStyle": "bold italic"
+			}
+		},
 		/* unmodified */
 		{
 			"scope": [
@@ -81,12 +111,6 @@
 			"scope": "meta.diff.header",
 			"settings": {
 				"foreground": "#000080"
-			}
-		},
-		{
-			"scope": "comment",
-			"settings": {
-				"foreground": "#008000"
 			}
 		},
 		{
