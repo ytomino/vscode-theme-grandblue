@@ -246,6 +246,58 @@
 				"foreground": "#BD166B"
 			}
 		},
+		/* markuped text */
+		{
+			"name": "Text",
+			"scope": [
+				"invalid.deprecated.line-too-long.git-commit",
+				"markup.table",
+				"punctuation.definition.list_item.markdown",
+				"punctuation.section.class.end",
+				"string.other.footnote",
+				"text.html.markdown",
+			],
+			"settings":{
+				"foreground": "#000000" /* same as foreground */
+			}
+		},
+		{
+			"name": "Raw text",
+			"scope": [
+				"markup.raw"
+			],
+			"settings":{
+				"foreground": "#208020"
+			}
+		},
+		{
+			"name": "Bold",
+			"scope": [
+				"markup.bold"
+			],
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Italic",
+			"scope": [
+				"markup.italic"
+			],
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Bold italic",
+			"scope": [
+				"markup.bold markup.italic",
+				"markup.italic markup.bold"
+			],
+			"settings": {
+				"fontStyle": "bold italic"
+			}
+		},
 		/* unmodified */
 		{
 			"scope": [
@@ -302,23 +354,10 @@
 			}
 		},
 		{
-			"scope": "markup.bold",
-			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#000080"
-			}
-		},
-		{
 			"scope": "markup.heading",
 			"settings": {
 				"fontStyle": "bold",
 				"foreground": "#800000"
-			}
-		},
-		{
-			"scope": "markup.italic",
-			"settings": {
-				"fontStyle": "italic"
 			}
 		},
 		{
