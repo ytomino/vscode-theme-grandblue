@@ -326,6 +326,40 @@
 				"foreground": "#808020"
 			}
 		},
+		/* markup */
+		{
+			"name": "Paragraph-level markup symbol",
+			"scope": [
+				"punctuation.definition.heading",
+				"punctuation.section.raw"
+			],
+			"settings": {
+				"foreground": "#40C0C0"
+			}
+		},
+		{
+			"name": "Inline-level markup symbol",
+			"scope": [
+				"punctuation.definition.bold",
+				"punctuation.definition.constant",
+				"punctuation.definition.italic",
+				"punctuation.definition.link",
+				"punctuation.definition.raw"
+			],
+			"settings": {
+				"foreground": "#C040C0"
+			}
+		},
+		{
+			"name": "Definition markup symbol",
+			"scope": [
+				"meta.link.footnote.def punctuation.definition.constant",
+				"meta.link.reference.def punctuation.definition.string"
+			],
+			"settings": {
+				"foreground": "#404040"
+			}
+		},
 		/* unmodified */
 		{
 			"scope": [
