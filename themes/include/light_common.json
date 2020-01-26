@@ -186,6 +186,18 @@
 				"foreground": "#808020"
 			}
 		},
+		/* directive */
+		{
+			"name": "Directive",
+			"scope": [
+				"keyword.other",
+				"keyword.control.directive",
+				"meta.other.directive"
+			],
+			"settings": {
+				"foreground": "#802020"
+			}
+		},
 		/* unmodified */
 		{
 			"scope": [
@@ -464,12 +476,6 @@
 			}
 		},
 		{
-			"scope": "keyword.other.unit",
-			"settings": {
-				"foreground": "#09885a"
-			}
-		},
-		{
 			"scope": [
 				"punctuation.section.embedded.begin.php",
 				"punctuation.section.embedded.end.php"
@@ -579,8 +585,6 @@
 		{
 			"name": "Control flow / Special keywords",
 			"scope": [
-				"keyword.other.using",
-				"keyword.other.operator",
 				"entity.name.operator"
 			],
 			"settings": {
