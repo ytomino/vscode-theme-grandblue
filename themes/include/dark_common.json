@@ -182,7 +182,7 @@
 				"constant"
 			],
 			"settings": {
-				"foreground": "#BFEF10"
+				"foreground": "#BFEF4F"
 			}
 		},
 		{
@@ -191,7 +191,7 @@
 				"constant.character.escape"
 			],
 			"settings": {
-				"foreground": "#EF8010"
+				"foreground": "#EF7F4F"
 			}
 		},
 		{
@@ -200,7 +200,7 @@
 				"string"
 			],
 			"settings": {
-				"foreground": "#00EF10"
+				"foreground": "#3FEF4F"
 			}
 		},
 		/* markuped text */
@@ -291,7 +291,7 @@
 				"punctuation.section.raw" /* not in the schema */
 			],
 			"settings": {
-				"foreground": "#00C0C0"
+				"foreground": "#3FBFBF"
 			}
 		},
 		{
@@ -304,7 +304,7 @@
 				"punctuation.definition.raw" /* not in the schema */
 			],
 			"settings": {
-				"foreground": "#C000C0"
+				"foreground": "#BF3FBF"
 			}
 		},
 		{

@@ -113,7 +113,7 @@
 				"keyword.operator.wordlike",
 			],
 			"settings": {
-				"foreground": "#384FF4"
+				"foreground": "#2C3EC0"
 			}
 		},
 		/* operator */
