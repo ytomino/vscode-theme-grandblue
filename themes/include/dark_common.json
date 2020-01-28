@@ -92,7 +92,7 @@
 				"punctuation.section.block.end.bracket.curly" /* C/C++ */
 			],
 			"settings": {
-				"foreground": "#A0A0A0"
+				"foreground": "#BFBFBF"
 			}
 		},
 		{
@@ -102,7 +102,7 @@
 				"entity.other.infix" /* not in the schema */
 			],
 			"settings": {
-				"foreground": "#80C0E0"
+				"foreground": "#BFCFDF"
 			}
 		},
 		{
@@ -111,7 +111,7 @@
 				"entity.other.prefix"
 			],
 			"settings": {
-				"foreground": "#C080E0"
+				"foreground": "#DFBFCF"
 			}
 		},
 		{
@@ -120,7 +120,7 @@
 				"entity.other.indexing"
 			],
 			"settings": {
-				"foreground": "#80E0C0"
+				"foreground": "#CFDFBF"
 			}
 		},
 		/* attribute */

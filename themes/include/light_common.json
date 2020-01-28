@@ -135,7 +135,7 @@
 				"punctuation.section.block.end.bracket.curly"
 			],
 			"settings": {
-				"foreground": "#505050"
+				"foreground": "#747474"
 			}
 		},
 		{
@@ -145,7 +145,7 @@
 				"entity.other.infix"
 			],
 			"settings": {
-				"foreground": "#204080"
+				"foreground": "#74425B"
 			}
 		},
 		{
@@ -154,7 +154,7 @@
 				"entity.other.prefix"
 			],
 			"settings": {
-				"foreground": "#402080"
+				"foreground": "#425B74"
 			}
 		},
 		{
@@ -163,7 +163,7 @@
 				"entity.other.indexing"
 			],
 			"settings": {
-				"foreground": "#208040"
+				"foreground": "#5B7442"
 			}
 		},
 		/* attribute */
