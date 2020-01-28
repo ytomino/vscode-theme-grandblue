@@ -28,7 +28,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#8080BF"
+				"foreground": "#8F80BF"
 			}
 		},
 		{
@@ -333,7 +333,7 @@
 				"comment markup.inserted"
 			],
 			"settings": {
-				"foreground": "#80B79F"
+				"foreground": "#88BEA2" /* average of Inserted and Comment */
 			}
 		},
 		{
@@ -351,7 +351,7 @@
 				"comment markup.deleted"
 			],
 			"settings": {
-				"foreground": "#B7809F"
+				"foreground": "#C480A2" /* average of Deleted and Comment */
 			}
 		},
 		{
@@ -369,7 +369,7 @@
 				"comment markup.changed"
 			],
 			"settings": {
-				"foreground": "#B7B79F"
+				"foreground": "#C4BEA2" /* average of Changed and Comment */
 			}
 		},
 		/* unmodified */

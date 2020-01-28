@@ -71,7 +71,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#967AB2"
+				"foreground": "#9C74A8"
 			}
 		},
 		{
@@ -81,7 +81,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#965AB2"
+				"foreground": "#A8748F"
 			}
 		},
 		{
@@ -367,7 +367,7 @@
 				"markup.inserted"
 			],
 			"settings": {
-				"foreground": "#10A010"
+				"foreground": "#00a800"
 			}
 		},
 		{
@@ -376,7 +376,7 @@
 				"comment markup.inserted"
 			],
 			"settings": {
-				"foreground": "#548D61"
+				"foreground": "#6A9072" /* average of Inserted and Comment */
 			}
 		},
 		{
@@ -385,7 +385,7 @@
 				"markup.deleted"
 			],
 			"settings": {
-				"foreground": "#A01010"
+				"foreground": "#A80000"
 			}
 		},
 		{
@@ -394,7 +394,7 @@
 				"comment markup.deleted"
 			],
 			"settings": {
-				"foreground": "#9B4561"
+				"foreground": "#A24F72" /* average of Deleted and Comment */
 			}
 		},
 		{
@@ -403,7 +403,7 @@
 				"markup.changed"
 			],
 			"settings": {
-				"foreground": "#A0A010"
+				"foreground": "#A8A800"
 			}
 		},
 		{
@@ -412,7 +412,7 @@
 				"comment markup.changed"
 			],
 			"settings": {
-				"foreground": "#9B8D61"
+				"foreground": "#A29072" /* average of Changed and Comment */
 			}
 		},
 		/* unmodified */
