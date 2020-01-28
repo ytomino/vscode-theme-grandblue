@@ -20,7 +20,7 @@
 		"editorLineNumber.foreground": "#8FB7B7",
 		"editorOverviewRuler.border": "#DFDFDFCC",
 		"editorRuler.foreground": "#8CA8B8CC",
-		"editorWhitespace.foreground": "#AFC3C7",
+		"editorWhitespace.foreground": "#BFD3D7",
 		"listFilterWidget.background": "#C01E1E66", /* refer dark */
 		"listFilterWidget.noMatchesOutline": "#F01EF0CC",
 		"listFilterWidget.outline": "#F01E1ECC", /* refer dark */
