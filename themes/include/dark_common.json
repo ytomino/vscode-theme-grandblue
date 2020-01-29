@@ -317,6 +317,25 @@
 				"foreground": "#C0C0C0"
 			}
 		},
+		/* diff headers */
+		{
+			"name": "Header",
+			"scope": [
+				"meta.diff.header"
+			],
+			"settings": {
+				"foreground": "#EFEF80"
+			}
+		},
+		{
+			"name": "Line number",
+			"scope": [
+				"meta.diff.range"
+			],
+			"settings": {
+				"foreground": "#8080EF"
+			}
+		},
 		/* diff */
 		{
 			"name": "Inserted",

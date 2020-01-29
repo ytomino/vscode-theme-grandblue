@@ -360,6 +360,25 @@
 				"foreground": "#404040"
 			}
 		},
+		/* diff headers */
+		{
+			"name": "Header",
+			"scope": [
+				"meta.diff.header"
+			],
+			"settings": {
+				"foreground": "#A8A800"
+			}
+		},
+		{
+			"name": "Line number",
+			"scope": [
+				"meta.diff.range"
+			],
+			"settings": {
+				"foreground": "#0000A8"
+			}
+		},
 		/* diff */
 		{
 			"name": "Inserted",
@@ -435,12 +454,6 @@
 			"scope": "strong",
 			"settings": {
 				"fontStyle": "bold"
-			}
-		},
-		{
-			"scope": "meta.diff.header",
-			"settings": {
-				"foreground": "#000080"
 			}
 		},
 		{
