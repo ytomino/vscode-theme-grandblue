@@ -97,6 +97,7 @@
 		{
 			"name": "Keyword",
 			"scope": [
+				"entity.name.tag",
 				"keyword",
 				"keyword.operator.alignas",
 				"keyword.operator.alignof",
@@ -179,7 +180,7 @@
 		{
 			"name": "User-defined attribute",
 			"scope": [
-				"entity.name.directive",
+				"entity.name.tag.restructuredtext",
 				"entity.other.attribute-name"
 			],
 			"settings": {
@@ -209,15 +210,6 @@
 				"foreground": "#000000" /* same as foreground */
 			}
 		},
-		{
-			"name": "Tag name",
-			"scope": [
-				"entity.name.tag"
-			],
-			"settings": {
-				"foreground": "#208020"
-			}
-		},
 		/* literal */
 		{
 			"name": "Literal",
@@ -240,6 +232,7 @@
 		{
 			"name": "String literal",
 			"scope": [
+				"entity.name.directive.restructuredtext",
 				"string"
 			],
 			"settings": {
