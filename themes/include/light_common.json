@@ -225,7 +225,7 @@
 				"constant"
 			],
 			"settings": {
-				"foreground": "#BB5F0B"
+				"foreground": "#00A000"
 			}
 		},
 		{
@@ -234,7 +234,7 @@
 				"constant.character.escape"
 			],
 			"settings": {
-				"foreground": "#10BC10"
+				"foreground": "#00C0C0"
 			}
 		},
 		{
@@ -243,7 +243,7 @@
 				"string"
 			],
 			"settings": {
-				"foreground": "#BD166B"
+				"foreground": "#A00000"
 			}
 		},
 		/* markuped text */
