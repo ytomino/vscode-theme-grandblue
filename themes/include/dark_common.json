@@ -66,7 +66,7 @@
 				"keyword.operator.wordlike",
 			],
 			"settings": {
-				"foreground": "#E971DA"
+				"foreground": "#E954DD" /* L=1/2 */
 			}
 		},
 		/* operator */
@@ -148,7 +148,7 @@
 				"meta.other.directive"
 			],
 			"settings": {
-				"foreground": "#E97171"
+				"foreground": "#E95454" /* L=1/2 */
 			}
 		},
 		/* entity */
