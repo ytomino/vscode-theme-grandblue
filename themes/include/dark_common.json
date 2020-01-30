@@ -178,7 +178,7 @@
 				"constant.character.escape"
 			],
 			"settings": {
-				"foreground": "#EF2F2F"
+				"foreground": "#EF7676" /* L=7/12 */
 			}
 		},
 		{
