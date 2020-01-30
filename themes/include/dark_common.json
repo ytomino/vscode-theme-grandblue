@@ -4,6 +4,7 @@
 	"colors": {
 		"editor.foreground": "#EFEFEF",
 		"editorCursor.foreground": "#FFFFFF",
+		"editorLink.activeForeground": "#7676EF", /* L=7/12 */
 		"panelTitle.activeBorder": "#BFBFBF",
 		"panelTitle.activeForeground": "#BFBFBF",
 		"panelTitle.inactiveForeground": "#BFBFBF99",
@@ -249,7 +250,7 @@
 				"constant.other.footnote.link" /* not in the schema */
 			],
 			"settings": {
-				"foreground": "#E08080"
+				"foreground": "#EF7676"
 			}
 		},
 		{
@@ -258,7 +259,7 @@
 				"string.other.link.title" /* not in the schema */
 			],
 			"settings": {
-				"foreground": "#8080E0"
+				"foreground": "#7676EF" /* same as editorLink.activeForeground */
 			}
 		},
 		{

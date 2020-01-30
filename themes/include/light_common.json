@@ -9,6 +9,7 @@
 		"editor.foreground": "#000000",
 		"editorCursor.foreground": "#000000",
 		"editorHoverWidget.foreground": "#616161",
+		"editorLink.activeForeground": "#0000AE", /* L=5/12 */
 		"editorWidget.foreground": "#616161",
 		"foreground": "#AAAAAA", /* light/dark */
 		"gitDecoration.addedResourceForeground": "#81B88B",
@@ -298,7 +299,7 @@
 				"constant.other.footnote.link"
 			],
 			"settings": {
-				"foreground": "#802020"
+				"foreground": "#AE0000"
 			}
 		},
 		{
@@ -307,7 +308,7 @@
 				"string.other.link.title"
 			],
 			"settings": {
-				"foreground": "#2020A0"
+				"foreground": "#0000AE" /* same as editorLink.activeForeground */
 			}
 		},
 		{
