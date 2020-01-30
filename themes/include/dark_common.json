@@ -2,21 +2,15 @@
 	"$schema": "vscode://schemas/color-theme",
 	"include": "./dark_defaults.json",
 	"colors": {
-		/* editor */
 		"editor.foreground": "#EFEFEF",
-		/* cursor */
 		"editorCursor.foreground": "#FFFFFF",
-		/* panel */
 		"panelTitle.activeBorder": "#BFBFBF",
 		"panelTitle.activeForeground": "#BFBFBF",
 		"panelTitle.inactiveForeground": "#BFBFBF99",
-		/* sidebar */
 		"sideBarTitle.foreground": "#BFBFBF",
-		/* terminal */
 		"terminal.ansiBrightWhite": "#EFEFEF", /* same as editor.foreground */
 		"terminal.ansiWhite": "#BFBFBF",
 		"terminal.foreground": "#BFBFBF", /* same as ansiWhite */
-		/* terminal cursor */
 		"terminalCursor.foreground": "#FFFFFF"
 	},
 	"tokenColors": [
