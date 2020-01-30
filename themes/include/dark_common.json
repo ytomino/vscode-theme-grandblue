@@ -126,7 +126,7 @@
 				"entity.other.attribute-name.defined" /* not in the schema */
 			],
 			"settings": {
-				"foreground": "#ECB4B4"
+				"foreground": "#EDB5B5" /* L=3/4 */
 			}
 		},
 		{
@@ -136,7 +136,7 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#ECECB4"
+				"foreground": "#EDEDB5" /* L=3/4 */
 			}
 		},
 		/* directive */

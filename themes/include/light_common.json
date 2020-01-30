@@ -175,7 +175,7 @@
 				"entity.other.attribute-name.defined"
 			],
 			"settings": {
-				"foreground": "#1A8080"
+				"foreground": "#168080" /* L=1/4 */
 			}
 		},
 		{
@@ -185,7 +185,7 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#1A801A"
+				"foreground": "#168016" /* L=1/4 */
 			}
 		},
 		/* directive */
