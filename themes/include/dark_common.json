@@ -88,7 +88,7 @@
 				"punctuation.section.block.end.bracket.curly" /* C/C++ */
 			],
 			"settings": {
-				"foreground": "#BFBFBF"
+				"foreground": "#C8C8C8" /* L=2/3 */
 			}
 		},
 		{

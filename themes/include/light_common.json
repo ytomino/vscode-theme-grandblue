@@ -137,7 +137,7 @@
 				"punctuation.section.block.end.bracket.curly"
 			],
 			"settings": {
-				"foreground": "#747474"
+				"foreground": "#686868" /* L=1/3 */
 			}
 		},
 		{
