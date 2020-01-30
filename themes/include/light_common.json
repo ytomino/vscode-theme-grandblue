@@ -258,6 +258,7 @@
 		{
 			"name": "Raw text",
 			"scope": [
+				"markup.inline.raw",
 				"markup.raw"
 			],
 			"settings":{
@@ -491,12 +492,6 @@
 			],
 			"settings": {
 				"foreground": "#0451a5"
-			}
-		},
-		{
-			"scope": "markup.inline.raw",
-			"settings": {
-				"foreground": "#800000"
 			}
 		},
 		{
