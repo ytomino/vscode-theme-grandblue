@@ -147,7 +147,7 @@
 				"entity.other.infix"
 			],
 			"settings": {
-				"foreground": "#74425B"
+				"foreground": "#83475E" /* L=1/3 */
 			}
 		},
 		{
@@ -156,7 +156,7 @@
 				"entity.other.prefix"
 			],
 			"settings": {
-				"foreground": "#425B74"
+				"foreground": "#475E83" /* L=1/3 */
 			}
 		},
 		{
@@ -165,7 +165,7 @@
 				"entity.other.indexing"
 			],
 			"settings": {
-				"foreground": "#5B7442"
+				"foreground": "#5E8347" /* L=1/3 */
 			}
 		},
 		/* attribute */

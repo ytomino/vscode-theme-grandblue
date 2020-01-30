@@ -98,7 +98,7 @@
 				"entity.other.infix" /* not in the schema */
 			],
 			"settings": {
-				"foreground": "#BFCFDF"
+				"foreground": "#B2CFDD" /* L=2/3 */
 			}
 		},
 		{
@@ -107,7 +107,7 @@
 				"entity.other.prefix"
 			],
 			"settings": {
-				"foreground": "#DFBFCF"
+				"foreground": "#DDB2CF" /* L=2/3 */
 			}
 		},
 		{
@@ -116,7 +116,7 @@
 				"entity.other.indexing"
 			],
 			"settings": {
-				"foreground": "#CFDFBF"
+				"foreground": "#CFDDB2" /* L=2/3 */
 			}
 		},
 		/* attribute */
