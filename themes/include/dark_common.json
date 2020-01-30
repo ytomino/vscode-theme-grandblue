@@ -169,7 +169,7 @@
 				"constant"
 			],
 			"settings": {
-				"foreground": "#EFEF8E"
+				"foreground": "#EFEFB2" /* L=3/4 */
 			}
 		},
 		{
@@ -188,7 +188,7 @@
 				"string"
 			],
 			"settings": {
-				"foreground": "#8EEFEF"
+				"foreground": "#B2EFEF" /* L=3/4 */
 			}
 		},
 		/* markuped text */

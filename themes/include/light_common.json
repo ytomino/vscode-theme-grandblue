@@ -218,7 +218,7 @@
 				"constant"
 			],
 			"settings": {
-				"foreground": "#00A000"
+				"foreground": "#008300" /* L=1/4 */
 			}
 		},
 		{
@@ -237,7 +237,7 @@
 				"string"
 			],
 			"settings": {
-				"foreground": "#A00000"
+				"foreground": "#830000" /* L=1/4 */
 			}
 		},
 		/* markuped text */
