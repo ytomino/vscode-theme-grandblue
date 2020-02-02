@@ -141,19 +141,28 @@
 			}
 		},
 		{
-			"name": "User-defined operator",
+			"name": "User-defined operator / Inline-level",
 			"scope": [
 				"entity.other",
-				"entity.other.infix"
+				"entity.other.infix",
+				"punctuation.definition.bold",
+				"punctuation.definition.constant",
+				"punctuation.definition.italic",
+				"punctuation.definition.link",
 			],
 			"settings": {
 				"foreground": "#83475E" /* L=1/3 */
 			}
 		},
 		{
-			"name": "User-defined prefix operator",
+			"name": "User-defined prefix operator / Paragraph-level",
 			"scope": [
-				"entity.other.prefix"
+				"entity.other.prefix",
+				"punctuation.definition.heading",
+				"punctuation.definition.raw",
+				"punctuation.section.raw",
+				"meta.link.footnote.def punctuation.definition.constant",
+				"meta.link.reference.def punctuation.definition.string",
 			],
 			"settings": {
 				"foreground": "#475E83" /* L=1/3 */
@@ -319,40 +328,6 @@
 			],
 			"settings": {
 				"foreground": "#767676" /* L=5/12 */
-			}
-		},
-		/* markup */
-		{
-			"name": "Paragraph-level markup symbol",
-			"scope": [
-				"punctuation.definition.heading",
-				"punctuation.section.raw"
-			],
-			"settings": {
-				"foreground": "#40C0C0"
-			}
-		},
-		{
-			"name": "Inline-level markup symbol",
-			"scope": [
-				"punctuation.definition.bold",
-				"punctuation.definition.constant",
-				"punctuation.definition.italic",
-				"punctuation.definition.link",
-				"punctuation.definition.raw"
-			],
-			"settings": {
-				"foreground": "#C040C0"
-			}
-		},
-		{
-			"name": "Definition markup symbol",
-			"scope": [
-				"meta.link.footnote.def punctuation.definition.constant",
-				"meta.link.reference.def punctuation.definition.string"
-			],
-			"settings": {
-				"foreground": "#404040"
 			}
 		},
 		/* diff headers */

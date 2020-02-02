@@ -92,19 +92,28 @@
 			}
 		},
 		{
-			"name": "User-defined operator",
+			"name": "User-defined operator / Inline-level",
 			"scope": [
 				"entity.other",
-				"entity.other.infix" /* not in the schema */
+				"entity.other.infix",
+				"punctuation.definition.bold",
+				"punctuation.definition.constant",
+				"punctuation.definition.italic",
+				"punctuation.definition.raw",
 			],
 			"settings": {
 				"foreground": "#B2CFDD" /* L=2/3 */
 			}
 		},
 		{
-			"name": "User-defined prefix operator",
+			"name": "User-defined prefix operator / Paragraph-level",
 			"scope": [
-				"entity.other.prefix"
+				"entity.other.prefix",
+				"punctuation.definition.heading",
+				"punctuation.definition.link",
+				"punctuation.section.raw",
+				"meta.link.footnote.def punctuation.definition.constant",
+				"meta.link.reference.def punctuation.definition.string",
 			],
 			"settings": {
 				"foreground": "#DDB2CF" /* L=2/3 */
@@ -270,40 +279,6 @@
 			],
 			"settings": {
 				"foreground": "#BDBDBD" /* L=7/12 */
-			}
-		},
-		/* markup */
-		{
-			"name": "Paragraph-level markup symbol",
-			"scope": [
-				"punctuation.definition.heading", /* not in the schema */
-				"punctuation.section.raw" /* not in the schema */
-			],
-			"settings": {
-				"foreground": "#3FBFBF"
-			}
-		},
-		{
-			"name": "Inline-level markup symbol",
-			"scope": [
-				"punctuation.definition.bold", /* not in the schema */
-				"punctuation.definition.constant", /* not in the schema */
-				"punctuation.definition.italic", /* not in the schema */
-				"punctuation.definition.link", /* not in the schema */
-				"punctuation.definition.raw" /* not in the schema */
-			],
-			"settings": {
-				"foreground": "#BF3FBF"
-			}
-		},
-		{
-			"name": "Definition markup symbol",
-			"scope": [
-				"meta.link.footnote.def punctuation.definition.constant", /* not in the schema */
-				"meta.link.reference.def punctuation.definition.string" /* not in the schema */
-			],
-			"settings": {
-				"foreground": "#C0C0C0"
 			}
 		},
 		/* diff headers */
