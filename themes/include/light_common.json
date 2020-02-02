@@ -300,7 +300,7 @@
 				"constant.other.footnote.link"
 			],
 			"settings": {
-				"foreground": "#AE0000"
+				"foreground": "#7600AE" /* L=5/12 */
 			}
 		},
 		{
@@ -318,7 +318,7 @@
 				"markup.underline.link"
 			],
 			"settings": {
-				"foreground": "#808020"
+				"foreground": "#767676" /* L=5/12 */
 			}
 		},
 		/* markup */

@@ -251,7 +251,7 @@
 				"constant.other.footnote.link" /* not in the schema */
 			],
 			"settings": {
-				"foreground": "#EF7676"
+				"foreground": "#BD76EF" /* L=7/12 */
 			}
 		},
 		{
@@ -269,7 +269,7 @@
 				"markup.underline.link"
 			],
 			"settings": {
-				"foreground": "#E0E080"
+				"foreground": "#BDBDBD" /* L=7/12 */
 			}
 		},
 		/* markup */
