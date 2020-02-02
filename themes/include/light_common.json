@@ -302,6 +302,15 @@
 				"fontStyle": "bold italic"
 			}
 		},
+		{
+			"name": "Head",
+			"scope": [
+				"markup.heading"
+			],
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
 		/* link */
 		{
 			"name": "Link identifier",
@@ -451,13 +460,6 @@
 			"scope": "markup.underline",
 			"settings": {
 				"fontStyle": "underline"
-			}
-		},
-		{
-			"scope": "markup.heading",
-			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#800000"
 			}
 		},
 		{
