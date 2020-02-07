@@ -355,7 +355,7 @@
 				"meta.diff.range"
 			],
 			"settings": {
-				"foreground": "#0000A8"
+				"foreground": "#00A8A8"
 			}
 		},
 		/* diff */
