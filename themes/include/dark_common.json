@@ -200,6 +200,18 @@
 				"foreground": "#B2EFEF" /* L=3/4 */
 			}
 		},
+		/* preprocessor */
+		{
+			"name": "Preprocessor text",
+			"scope": [
+				"meta.preprocessor",
+				"meta.preprocessor entity",
+				"meta.preprocessor variable",
+			],
+			"settings": {
+				"foreground": "#DDDDDD" /* L = 5/6 */
+			}
+		},
 		/* markuped text */
 		{
 			"name": "Text",
