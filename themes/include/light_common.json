@@ -30,7 +30,6 @@
 		"list.warningForeground": "#CCA700", /* dark */
 		"menu.foreground": "#616161",
 		"notifications.foreground": "#616161",
-		"panel.dropBackground": "#FFFFFF1F",
 		"panelTitle.activeBorder": "#BFBFBF",
 		"panelTitle.activeForeground": "#BFBFBF",
 		"panelTitle.inactiveForeground": "#BFBFBF99",
