@@ -11,7 +11,6 @@
 		"editorHoverWidget.foreground": "#616161",
 		"editorLink.activeForeground": "#0000AE", /* L=5/12 */
 		"editorWidget.foreground": "#616161",
-		"foreground": "#AAAAAA", /* light/dark */
 		"gitDecoration.addedResourceForeground": "#81B88B",
 		"gitDecoration.deletedResourceForeground": "#C74E39",
 		"gitDecoration.ignoredResourceForeground": "#8C8C8C",
@@ -30,9 +29,10 @@
 		"list.warningForeground": "#CCA700", /* dark */
 		"menu.foreground": "#616161",
 		"notifications.foreground": "#616161",
-		"panelTitle.activeBorder": "#BFBFBF",
-		"panelTitle.activeForeground": "#BFBFBF",
-		"panelTitle.inactiveForeground": "#BFBFBF99",
+		"panel.background": "#DFE3E7", /* same as editorGroupHeader.tabsBackground */
+		"panelTitle.activeBorder": "#C5C5C5", /* same as tab.border */
+		"panelTitle.activeForeground": "#333333", /* same as tab.activeForeground */
+		"panelTitle.inactiveForeground": "#333333B3", /* same as tab.inactiveForeground */
 		"problemsErrorIcon.foreground": "#F48771",
 		"problemsWarningIcon.foreground": "#CCA700",
 		"quickInput.background": "#F3F3F3",
@@ -43,6 +43,8 @@
 		"sideBar.dropBackground": "#FFFFFF1F",
 		"sideBar.foreground": "#CCCCCC",
 		"sideBarTitle.foreground": "#BFBFBF",
+		"tab.border": "#C5C5C5",
+		"tab.inactiveBackground": "#DFE3E7",
 		"terminal.ansiBlue": "#2472c8",
 		"terminal.ansiBrightBlue": "#3b8eea",
 		"terminal.ansiBrightCyan": "#29b8db",

@@ -34,11 +34,11 @@
 		"editor.findMatchHighlightBorder": "#F00000CC", /* 5/4 of #C00000 with 4/5transparency */
 		/* sidebar */
 		"sideBar.background": "#101010",
-		/* panel */
-		"panel.background": "#101010",
 		/* explorer */
 		"listFilterWidget.background": "#C0101066", /* similar as editor.findMatchBackground */
 		"listFilterWidget.outline": "#F01010CC", /* similar as editor.findMatchBorder */
-		"listFilterWidget.noMatchesOutline": "#F010F0CC"
+		"listFilterWidget.noMatchesOutline": "#F010F0CC",
+		/* terminal */
+		"terminal.background": "#101010",
 	}
 }

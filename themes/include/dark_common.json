@@ -5,10 +5,12 @@
 		"editor.foreground": "#EFEFEF",
 		"editorCursor.foreground": "#FFFFFF",
 		"editorLink.activeForeground": "#7676EF", /* L=7/12 */
-		"panelTitle.activeBorder": "#BFBFBF",
-		"panelTitle.activeForeground": "#BFBFBF",
-		"panelTitle.inactiveForeground": "#BFBFBF99",
+		"panel.background": "#252526", /* same as editorGroupHeader.tabsBackground */
+		"panelTitle.activeBorder": "#404040", /* same as tab.border */
+		"panelTitle.activeForeground": "#FFFFFF", /* same as tab.activeForeground */
+		"panelTitle.inactiveForeground": "#FFFFFF80", /* same as tab.inactiveForeground */
 		"sideBarTitle.foreground": "#BFBFBF",
+		"tab.border": "#404040",
 		"terminal.ansiBrightWhite": "#EFEFEF", /* same as editor.foreground */
 		"terminal.ansiWhite": "#BFBFBF",
 		"terminal.foreground": "#BFBFBF", /* same as ansiWhite */
