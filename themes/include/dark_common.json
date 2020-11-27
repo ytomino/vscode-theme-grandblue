@@ -9,11 +9,12 @@
 		"panelTitle.activeBorder": "#404040", /* same as tab.border */
 		"panelTitle.activeForeground": "#FFFFFF", /* same as tab.activeForeground */
 		"panelTitle.inactiveForeground": "#FFFFFF80", /* same as tab.inactiveForeground */
+		"sideBar.foreground": "#CCCCCC",
 		"sideBarTitle.foreground": "#BFBFBF",
 		"tab.border": "#404040",
 		"terminal.ansiBrightWhite": "#EFEFEF", /* same as editor.foreground */
-		"terminal.ansiWhite": "#BFBFBF",
-		"terminal.foreground": "#BFBFBF", /* same as ansiWhite */
+		"terminal.ansiWhite": "#CCCCCC",
+		"terminal.foreground": "#CCCCCC", /* same as ansiWhite */
 		"terminalCursor.foreground": "#FFFFFF"
 	},
 	"tokenColors": [

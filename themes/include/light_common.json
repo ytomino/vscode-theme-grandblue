@@ -56,9 +56,9 @@
 		"terminal.ansiGreen": "#0dbc79",
 		"terminal.ansiMagenta": "#bc3fbc",
 		"terminal.ansiBrightWhite": "#EFEFEF",
-		"terminal.ansiWhite": "#BFBFBF",
+		"terminal.ansiWhite": "#CCCCCC",
 		"terminal.ansiYellow": "#e5e510",
-		"terminal.foreground": "#BFBFBF", /* same as ansiWhite */
+		"terminal.foreground": "#CCCCCC", /* same as ansiWhite */
 		"terminal.selectionBackground": "#FFFFFF40",
 		"terminalCursor.foreground": "#FFFFFF",
 		"tree.indentGuidesStroke": "#585858",
