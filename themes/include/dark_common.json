@@ -1,6 +1,6 @@
 {
 	"$schema": "vscode://schemas/color-theme",
-	"include": "./dark_defaults.json",
+	"include": "./dark_vs.json",
 	"colors": {
 		"editor.foreground": "#EFEFEF",
 		"editorCursor.foreground": "#FFFFFF",

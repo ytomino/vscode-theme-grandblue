@@ -1,6 +1,6 @@
 {
 	"$schema": "vscode://schemas/color-theme",
-	"name": "Dark Default Colors",
+	"name": "Dark (Visual Studio)",
 	"colors": {
 		"editor.background": "#1E1E1E",
 		"editor.foreground": "#D4D4D4",
@@ -16,6 +16,7 @@
 		"menu.foreground": "#CCCCCC",
 		"statusBarItem.remoteForeground": "#FFF",
 		"statusBarItem.remoteBackground": "#16825D",
+		"ports.iconRunningProcessForeground": "#369432",
 		"sideBarSectionHeader.background": "#0000",
 		"sideBarSectionHeader.border": "#ccc3",
 		"tab.lastPinnedBorder": "#ccc3"

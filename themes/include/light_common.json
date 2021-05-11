@@ -1,6 +1,6 @@
 {
 	"$schema": "vscode://schemas/color-theme",
-	"include": "./light_defaults.json",
+	"include": "./light_vs.json",
 	"colors": {
 		"activityBar.background": "#333333",
 		"breadcrumb.activeSelectionForeground": "#4e4e4e",
