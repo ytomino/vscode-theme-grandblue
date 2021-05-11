@@ -17,7 +17,6 @@
 		"gitDecoration.modifiedResourceForeground": "#E2C08D",
 		"gitDecoration.submoduleResourceForeground": "#8DB9E2",
 		"gitDecoration.untrackedResourceForeground": "#73C991",
-		"icon.foreground": "#c5c5c5",
 		"input.foreground": "#000000",
 		"list.activeSelectionBackground": "#094771", /* dark */
 		"list.dropBackground": "#383B3D", /* dark */
