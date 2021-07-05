@@ -22,7 +22,8 @@
 		"list.dropBackground": "#383B3D", /* dark */
 		"list.errorForeground": "#F88070", /* dark */
 		"list.focusBackground": "#566BFF66", /* light/dark */
-		"list.highlightForeground": "#006030", /* light */
+		"list.focusHighlightForeground": "#9dddff",
+		"list.highlightForeground": "#0066bf",
 		"list.hoverBackground": "#7F7F7F80", /* light/dark */
 		"list.inactiveSelectionBackground": "#37373D", /* dark */
 		"list.warningForeground": "#CCA700", /* dark */
