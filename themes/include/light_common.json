@@ -51,11 +51,12 @@
 		"terminal.ansiBrightGreen": "#23d18b",
 		"terminal.ansiBrightMagenta": "#d670d6",
 		"terminal.ansiBrightRed": "#f14c4c",
+		"terminal.ansiBrightWhite": "#EFEFEF",
 		"terminal.ansiBrightYellow": "#f5f543",
 		"terminal.ansiCyan": "#11a8cd",
 		"terminal.ansiGreen": "#0dbc79",
 		"terminal.ansiMagenta": "#bc3fbc",
-		"terminal.ansiBrightWhite": "#EFEFEF",
+		"terminal.ansiRed": "#cd3131",
 		"terminal.ansiWhite": "#CCCCCC",
 		"terminal.ansiYellow": "#e5e510",
 		"terminal.foreground": "#CCCCCC", /* same as ansiWhite */
