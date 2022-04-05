@@ -210,7 +210,7 @@
 				"meta.preprocessor variable",
 			],
 			"settings": {
-				"foreground": "#DDDDDD" /* L = 5/6 */
+				"foreground": "#DDDDDD" /* L=5/6 */
 			}
 		},
 		/* markuped text */
