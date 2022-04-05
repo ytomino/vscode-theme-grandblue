@@ -272,7 +272,8 @@
 				"markup.heading"
 			],
 			"settings": {
-				"fontStyle": "bold"
+				"fontStyle": "bold",
+				"foreground": "#DDB2DD" /* L=2/3 */
 			}
 		},
 		/* link */

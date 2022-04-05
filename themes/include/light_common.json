@@ -320,7 +320,8 @@
 				"markup.heading"
 			],
 			"settings": {
-				"fontStyle": "bold"
+				"fontStyle": "bold",
+				"foreground": "#474783" /* L=1/3 */
 			}
 		},
 		/* link */
