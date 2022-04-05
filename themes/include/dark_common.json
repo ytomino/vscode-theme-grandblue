@@ -144,7 +144,6 @@
 		{
 			"name": "User-defined attribute",
 			"scope": [
-				"entity.name.tag.restructuredtext",
 				"entity.other.attribute-name"
 			],
 			"settings": {
@@ -196,7 +195,6 @@
 		{
 			"name": "String literal",
 			"scope": [
-				"entity.name.directive.restructuredtext",
 				"string"
 			],
 			"settings": {
