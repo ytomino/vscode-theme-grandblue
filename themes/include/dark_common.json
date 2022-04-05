@@ -135,7 +135,8 @@
 		{
 			"name": "Language-defined attribute",
 			"scope": [
-				"entity.other.attribute-name.defined" /* not in the schema */
+				"entity.other.attribute-name.defined", /* not in the schema */
+				"source.rst variable.parameter.codeblock"
 			],
 			"settings": {
 				"foreground": "#EDB5B5" /* L=3/4 */
@@ -144,7 +145,8 @@
 		{
 			"name": "User-defined attribute",
 			"scope": [
-				"entity.other.attribute-name"
+				"entity.other.attribute-name",
+				"source.rst variable.parameter"
 			],
 			"settings": {
 				"foreground": "#EDEDB5" /* L=3/4 */
@@ -156,7 +158,8 @@
 			"scope": [
 				"keyword.other",
 				"keyword.control.directive", /* not in the schema */
-				"meta.other.directive"
+				"meta.other.directive",
+				"source.rst keyword.control"
 			],
 			"settings": {
 				"foreground": "#E9549A" /* L=1/2 */
@@ -280,7 +283,8 @@
 		{
 			"name": "Link identifier",
 			"scope": [
-				"constant.other.footnote.link" /* not in the schema */
+				"constant.other.footnote.link", /* not in the schema */
+				"source.rst entity.name.tag"
 			],
 			"settings": {
 				"foreground": "#BD76EF" /* L=7/12 */

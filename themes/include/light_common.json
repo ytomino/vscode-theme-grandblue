@@ -183,7 +183,8 @@
 		{
 			"name": "Language-defined attribute",
 			"scope": [
-				"entity.other.attribute-name.defined"
+				"entity.other.attribute-name.defined",
+				"source.rst variable.parameter.codeblock"
 			],
 			"settings": {
 				"foreground": "#168080" /* L=1/4 */
@@ -192,7 +193,8 @@
 		{
 			"name": "User-defined attribute",
 			"scope": [
-				"entity.other.attribute-name"
+				"entity.other.attribute-name",
+				"source.rst variable.parameter"
 			],
 			"settings": {
 				"foreground": "#168016" /* L=1/4 */
@@ -204,7 +206,8 @@
 			"scope": [
 				"keyword.other",
 				"keyword.control.directive",
-				"meta.other.directive"
+				"meta.other.directive",
+				"source.rst keyword.control"
 			],
 			"settings": {
 				"foreground": "#2597BA" /* L=1/2 */
@@ -328,7 +331,8 @@
 		{
 			"name": "Link identifier",
 			"scope": [
-				"constant.other.footnote.link"
+				"constant.other.footnote.link",
+				"source.rst entity.name.tag"
 			],
 			"settings": {
 				"foreground": "#7600AE" /* L=5/12 */
