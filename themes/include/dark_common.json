@@ -397,7 +397,6 @@
 			"name": "Keyword, Storage",
 			"scope": [
 				"storage.type",
-				"storage.modifier"
 			],
 			"settings": {
 				"foreground": "#C792EA"

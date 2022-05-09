@@ -502,21 +502,7 @@
 			}
 		},
 		{
-			"scope": "storage",
-			"settings": {
-				"foreground": "#0000ff"
-			}
-		},
-		{
 			"scope": "storage.type",
-			"settings": {
-				"foreground": "#0000ff"
-			}
-		},
-		{
-			"scope": [
-				"storage.modifier",
-			],
 			"settings": {
 				"foreground": "#0000ff"
 			}
