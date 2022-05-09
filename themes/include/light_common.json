@@ -224,6 +224,19 @@
 				"foreground": "#000000" /* same as foreground */
 			}
 		},
+		{
+			"name": "Language-defined entity",
+			"scope": [
+				"support.class",
+				"support.constant",
+				"support.function",
+				"support.type",
+				"support.variable"
+			],
+			"settings": {
+				"foreground": "#305959" /* L=1/4 */
+			}
+		},
 		/* literal */
 		{
 			"name": "Literal",
@@ -599,7 +612,6 @@
 		{
 			"name": "Function declarations",
 			"scope": [
-				"support.function",
 				"support.constant.handlebars",
 				"source.powershell variable.other.member",
 			],
@@ -611,8 +623,6 @@
 			"name": "Types declaration and references",
 			"scope": [
 				"meta.return-type",
-				"support.class",
-				"support.type",
 				"storage.type.numeric.go",
 				"storage.type.byte.go",
 				"storage.type.boolean.go",
@@ -660,7 +670,6 @@
 			"name": "Variable and parameter name",
 			"scope": [
 				"meta.definition.variable.name",
-				"support.variable",
 			],
 			"settings": {
 				"foreground": "#001080"

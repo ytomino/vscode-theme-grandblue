@@ -176,6 +176,19 @@
 				"foreground": "#EFEFEF" /* same as foreground */
 			}
 		},
+		{
+			"name": "Language-defined entity",
+			"scope": [
+				"support.class",
+				"support.constant",
+				"support.function",
+				"support.type",
+				"support.variable"
+			],
+			"settings": {
+				"foreground": "#E6D3D3" /* L=3/4 */
+			}
+		},
 		/* literal */
 		{
 			"name": "Literal",
@@ -420,7 +433,6 @@
 			"name": "Function, Special Method",
 			"scope": [
 				"variable.function",
-				"support.function"
 			],
 			"settings": {
 				"foreground": "#82AAFF"
@@ -447,7 +459,6 @@
 		{
 			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
 			"scope": [
-				"support.constant",
 				"variable.parameter"
 			],
 			"settings": {
@@ -466,23 +477,12 @@
 		{
 			"name": "Class, Support",
 			"scope": [
-				"support.type",
-				"support.class",
 				"support.orther.namespace.use.php",
 				"support.other.namespace.php",
 				"support.type.sys-types"
 			],
 			"settings": {
 				"foreground": "#FFCB6B"
-			}
-		},
-		{
-			"name": "Entity Types",
-			"scope": [
-				"support.type"
-			],
-			"settings": {
-				"foreground": "#B2CCD6"
 			}
 		},
 		{
