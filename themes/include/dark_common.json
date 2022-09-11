@@ -395,6 +395,106 @@
 				"foreground": "#C4BEA2" /* average of Changed and Comment */
 			}
 		},
+		/* rainbow */
+		{
+			"scope": [
+				"rainbowgroup rainbow1"
+			],
+			"settings": {
+				"foreground": "#DDDDDD", /* L=5/6 */
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"rainbowgroup rainbow2",
+				"rainbowgroup keyword.rainbow2"
+			],
+			"settings": {
+				"foreground": "#C8DDEF", /* H=7/12 */
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"rainbowgroup rainbow3",
+				"rainbowgroup entity.name.function.rainbow3"
+			],
+			"settings": {
+				"foreground": "#EFE9C8", /* H=5/36 */
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"rainbowgroup rainbow4",
+				"rainbowgroup comment.rainbow4"
+			],
+			"settings": {
+				"foreground": "#CFC8EF", /* H=25/36 */
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"rainbowgroup rainbow5",
+				"rainbowgroup string.rainbow5"
+			],
+			"settings": {
+				"foreground": "#DDEFC8", /* H=1/4 */
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"rainbowgroup rainbow6",
+				"rainbowgroup variable.parameter.rainbow6"
+			],
+			"settings": {
+				"foreground": "#E9C8EF", /* H=29/36 */
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"rainbowgroup rainbow7",
+				"rainbowgroup constant.numeric.rainbow7"
+			],
+			"settings": {
+				"foreground": "#C8EFCF", /* H=13/36 */
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"rainbowgroup rainbow8",
+				"rainbowgroup entity.name.type.rainbow8"
+			],
+			"settings": {
+				"foreground": "#EFC8DD", /* H=11/12 */
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"rainbowgroup rainbow9",
+				"rainbowgroup markup.bold.rainbow9"
+			],
+			"settings": {
+				"foreground": "#C8EFE9", /* H=17/36 */
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"rainbowgroup rainbow10",
+				"rainbowgroup invalid.rainbow10"
+			],
+			"settings": {
+				"foreground": "#EFCFC8", /* H=1/36 */
+				"fontStyle": ""
+			}
+		},
 		/* unmodified */
 		{
 			"name": "Invalid",
