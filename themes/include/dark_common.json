@@ -12,9 +12,21 @@
 		"sideBar.foreground": "#CCCCCC",
 		"sideBarTitle.foreground": "#BFBFBF",
 		"tab.border": "#404040",
-		"terminal.ansiBrightWhite": "#EFEFEF", /* same as editor.foreground */
-		"terminal.ansiWhite": "#CCCCCC",
-		"terminal.foreground": "#CCCCCC", /* same as ansiWhite */
+		"terminal.ansiBlue": "#4343FF",
+		"terminal.ansiBrightBlue": "#6868FF",
+		"terminal.ansiBrightCyan": "#00EEEE",
+		"terminal.ansiBrightGreen": "#00EC00",
+		"terminal.ansiBrightMagenta": "#FF26FF",
+		"terminal.ansiBrightRed": "#FF2E2E",
+		"terminal.ansiBrightWhite": "#E5E5E5",
+		"terminal.ansiBrightYellow": "#E3E300",
+		"terminal.ansiCyan": "#00C6C6",
+		"terminal.ansiGreen": "#00C500",
+		"terminal.ansiMagenta": "#D800D8",
+		"terminal.ansiRed": "#DB0000",
+		"terminal.ansiWhite": "#BFBFBF",
+		"terminal.ansiYellow": "#BDBD00",
+		"terminal.foreground": "#D3D3D3", /* middle of ansiWhite and ansiBrightWhite */
 		"terminalCursor.foreground": "#FFFFFF"
 	},
 	"tokenColors": [
