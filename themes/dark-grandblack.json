@@ -40,5 +40,7 @@
 		"listFilterWidget.noMatchesOutline": "#F010F0CC",
 		/* terminal */
 		"terminal.background": "#101010",
+		"terminal.inactiveSelectionBackground": "#505050CC", /* similar as editor.inactiveSelectionBackground */
+		"terminal.selectionBackground": "#305070CC", /* similar as editor.selectionBackground */
 	}
 }

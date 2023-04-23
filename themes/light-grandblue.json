@@ -26,5 +26,7 @@
 		"listFilterWidget.outline": "#F01E1ECC", /* refer dark */
 		"sideBar.background": "#1E1E1E",
 		"terminal.background": "#1E1E1E",
+		"terminal.inactiveSelectionBackground": "#505050CC", /* similar as editor.inactiveSelectionBackground in dark */
+		"terminal.selectionBackground": "#305070CC", /* similar as editor.selectionBackground in dark */
 	}
 }

@@ -60,7 +60,6 @@
 		"terminal.ansiWhite": "#BFBFBF",
 		"terminal.ansiYellow": "#BDBD00",
 		"terminal.foreground": "#D3D3D3", /* middle of ansiWhite and ansiBrightWhite */
-		"terminal.selectionBackground": "#FFFFFF40",
 		"terminalCursor.foreground": "#FFFFFF",
 		"tree.indentGuidesStroke": "#585858",
 		"widget.shadow": "#000000",
