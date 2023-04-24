@@ -38,6 +38,10 @@
 		"listFilterWidget.background": "#C01E1E66", /* similar as editor.findMatchBackground */
 		"listFilterWidget.outline": "#F01E1ECC", /* similar as editor.findMatchBorder */
 		"listFilterWidget.noMatchesOutline": "#F01EF0CC",
+		/* status bar */
+		"statusBar.border": "#1E1E1E80", /* similar as sideBar.background */
+		"statusBar.focusBorder": "#007FD4", /* default focusBorder */
+		"statusBar.noFolderBackground": "#252526", /* same as panel.background */
 		/* terminal */
 		"terminal.background": "#1E1E1E",
 		"terminal.inactiveSelectionBackground": "#505050CC", /* similar as editor.inactiveSelectionBackground */
